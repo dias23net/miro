@@ -1,6 +1,82 @@
+// Универсальный селектор
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fira", sans-serif;
+}
+//Элементы
+a {
+  color: #4262ff;
+  &:hover {
+    color: #050038;
+  }
+}
+// Навигация
+header {
+  nav {
+    ul {
+      li {
+        list-style: none;
+        a {
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          color: #696688;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+// Главное
+main {
+  section {
+    h1,
+    h2 {
+      font-weight: 400;
+      font-size: 48px;
+      line-height: 56px;
+      color: #050038;
+    }
+    form {
+      input {
+        border: 1px solid #ccc;
+        outline: none;
+        transition: border-color 0.3s ease;
+        &:focus {
+          border-color: #007bff;
+        }
+        &:invalid {
+          border-color: #ff0000;
+        }
+      }
+      button {
+        background-color: #4262ff;
+        color: #fff;
+        border: none;
+        outline: none;
+        &:hover {
+          background-color: #3753df;
+        }
+        &:active {
+          background-color: #2e45b8;
+        }
+      }
+    }
+    .heroForm + p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      color: #050038;
+    }
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    .sectionText {
+      color: #696688;
+    }
+  }
 }

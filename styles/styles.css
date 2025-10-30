@@ -2,5 +2,68 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fira", sans-serif;
+}
+
+a {
+  color: #4262ff;
+}
+a:hover {
+  color: #050038;
+}
+
+header nav ul li {
+  list-style: none;
+}
+header nav ul li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #696688;
+  text-decoration: none;
+}
+
+main section h1,
+main section h2 {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #050038;
+}
+main section form input {
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+main section form input:focus {
+  border-color: #007bff;
+}
+main section form input:invalid {
+  border-color: #ff0000;
+}
+main section form button {
+  background-color: #4262ff;
+  color: #fff;
+  border: none;
+  outline: none;
+}
+main section form button:hover {
+  background-color: #3753df;
+}
+main section form button:active {
+  background-color: #2e45b8;
+}
+main section .heroForm + p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #050038;
+}
+main section p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+}
+main section .sectionText {
+  color: #696688;
 }/*# sourceMappingURL=styles.css.map */
