@@ -44,9 +44,6 @@ main {
         border: 1px solid #ccc;
         outline: none;
         transition: border-color 0.3s ease;
-        &:focus {
-          border-color: #007bff;
-        }
         &:invalid {
           border-color: #ff0000;
         }

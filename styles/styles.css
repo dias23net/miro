@@ -35,9 +35,6 @@ main section form input {
   outline: none;
   transition: border-color 0.3s ease;
 }
-main section form input:focus {
-  border-color: #007bff;
-}
 main section form input:invalid {
   border-color: #ff0000;
 }
