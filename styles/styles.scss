@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   font-family: "Fira", sans-serif;
+  border: none;
+  outline: none;
 }
 //Элементы
 a {
@@ -42,7 +44,6 @@ main {
     form {
       input {
         border: 1px solid #ccc;
-        outline: none;
         transition: border-color 0.3s ease;
         &:invalid {
           border-color: #ff0000;
@@ -51,8 +52,6 @@ main {
       button {
         background-color: #4262ff;
         color: #fff;
-        border: none;
-        outline: none;
         &:hover {
           background-color: #3753df;
         }
