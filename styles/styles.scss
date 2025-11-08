@@ -59,7 +59,7 @@ main {
         }
       }
     }
-    .heroForm + p {
+    .sectionOneForm + p {
       font-weight: 400;
       font-size: 14px;
       line-height: 20px;
@@ -70,8 +70,40 @@ main {
       font-size: 18px;
       line-height: 24px;
     }
-    .sectionText {
+    .sectionThreeP {
       color: #696688;
     }
+    .sectionSevenContainer {
+      .sectionSevenImg {
+        width: 48px;
+        height: 48px;
+      }
+    }
+    ul {
+      .sectionFiveLi {
+        &::before {
+          content: url("../images/Frame.png");
+        }
+      }
+    }
   }
+}
+// Шестая секция
+.sectionSix {
+  background-color: #ffd02f;
+}
+// Восьмая секция
+.sectionEight {
+  background-color: #050038;
+  color: #fff;
+  .sectionEightContainer {
+    h2 {
+      color: #fff;
+    }
+  }
+}
+// Подвал
+footer {
+  background-color: #050038;
+  color: #fff;
 }

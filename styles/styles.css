@@ -46,7 +46,7 @@ main section form button:hover {
 main section form button:active {
   background-color: #2e45b8;
 }
-main section .heroForm + p {
+main section .sectionOneForm + p {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -57,6 +57,30 @@ main section p {
   font-size: 18px;
   line-height: 24px;
 }
-main section .sectionText {
+main section .sectionThreeP {
   color: #696688;
+}
+main section .sectionSevenContainer .sectionSevenImg {
+  width: 48px;
+  height: 48px;
+}
+main section ul .sectionFiveLi::before {
+  content: url("../images/Frame.png");
+}
+
+.sectionSix {
+  background-color: #ffd02f;
+}
+
+.sectionEight {
+  background-color: #050038;
+  color: #fff;
+}
+.sectionEight .sectionEightContainer h2 {
+  color: #fff;
+}
+
+footer {
+  background-color: #050038;
+  color: #fff;
 }/*# sourceMappingURL=styles.css.map */
