@@ -6,12 +6,16 @@
   font-family: "Google Sans Code", "Roboto", "Fira Code";
   border: none;
   outline: none;
+  list-style: none;
 }
 // Контент
 .content {
+  max-width: 1200px;
+  margin: 0 auto;
   button {
     background-color: #4262ff;
     color: #fff;
+    font-size: 16px;
     &:hover {
       background-color: #3753df;
     }
@@ -21,20 +25,55 @@
   }
   // Навигация
   header {
-    nav ul li a {
-      font-weight: 400;
-      font-size: 16px;
-      line-height: 24px;
-      color: #696688;
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
+    border-bottom: 1px solid #eeeeee;
+    height: 90px;
+    nav {
+      display: flex;
+      justify-content: space-between;
+      height: 90px;
+      .nav_block_1 {
+        display: flex;
+        align-items: center;
+        ul {
+          display: flex;
+          li {
+            margin-left: 34px;
+            &:first-child {
+              margin-left: 24px;
+            }
+            a {
+              display: flex;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 24px;
+              color: #696688;
+              text-decoration: none;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .nav_block_2 {
+        display: flex;
+        align-items: center;
+        a {
+          display: flex;
+        }
+        button {
+          width: 157px;
+          height: 50px;
+          margin-left: 88px;
+          border-radius: 24px;
+        }
       }
     }
   }
   // Главное
   main {
     section {
+      padding: 0 20px;
       a {
         color: #4262ff;
         text-decoration: none;
@@ -50,40 +89,65 @@
         color: #050038;
       }
       form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 55px;
         input {
+          font-size: 24px;
+          font-weight: 100;
+          color: #5f5f5f;
+          padding: 0 20px;
+          border-radius: 32px;
+          width: 440px;
+          height: 48px;
           border: 1px solid #ccc;
           transition: border-color 0.3s ease;
           &:invalid {
             border-color: #ff0000;
           }
         }
-      }
-      .section-one-form + p {
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 20px;
-        color: #050038;
+        button {
+          margin-top: 10px;
+          border-radius: 32px;
+          width: 440px;
+          height: 48px;
+        }
+        + p {
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #050038;
+        }
       }
       p {
         font-weight: 400;
         font-size: 18px;
         line-height: 24px;
       }
-      .section-three-p {
+      .section_3_p {
         color: #696688;
       }
-      .section-seven-container {
-        .section-seven-img {
+      .section_7_container {
+        .section_7_img {
           width: 48px;
           height: 48px;
         }
       }
     }
   }
+  // Первая секция
+  .section_1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 62px;
+    .section_1_block_1 {
+      width: 440px;
+    }
+  }
   // Пятая секция
-  .section-five {
-    .section-five-ul {
-      .section-five-li {
+  .section_5 {
+    .section_5_ul {
+      .section_5_li {
         &::before {
           content: url("../images/Frame.png");
         }
@@ -91,14 +155,14 @@
     }
   }
   // Шестая секция
-  .section-six {
+  .section_6 {
     background-color: #ffd02f;
   }
   // Восьмая секция
-  .section-eight {
+  .section_8 {
     background-color: #050038;
     color: #fff;
-    .section-eight-container {
+    .section_8_container {
       h2 {
         color: #fff;
       }
@@ -117,6 +181,7 @@
   }
   // Подвал
   footer {
+    padding: 0 20px;
     a {
       color: #fff;
       text-decoration: none;
