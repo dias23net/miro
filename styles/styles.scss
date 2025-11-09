@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Google Sans Code", "Roboto", "Fira Code";
+  font-family: "Fira Code Regular";
   border: none;
   outline: none;
   list-style: none;
@@ -14,8 +14,8 @@ body {
   .content {
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 10px 0 20px rgba(0, 0, 0, 0.15),
-      -10px 0 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05),
+      -10px 0 30px rgba(0, 0, 0, 0.05);
     background-color: #fff;
     button {
       background-color: #4262ff;
@@ -30,7 +30,7 @@ body {
     }
     // Навигация
     header {
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid #e6e6e67a;
       height: 90px;
       padding: 0 20px;
       nav {
@@ -51,7 +51,6 @@ body {
                 display: flex;
                 font-weight: 400;
                 font-size: 16px;
-                line-height: 24px;
                 color: #696688;
                 text-decoration: none;
                 &:hover {
@@ -88,7 +87,6 @@ body {
         h2 {
           font-weight: 400;
           font-size: 48px;
-          line-height: 56px;
           color: #050038;
         }
         form {
@@ -119,7 +117,6 @@ body {
         p {
           font-weight: 400;
           font-size: 18px;
-          line-height: 24px;
         }
         .section_3_p {
           color: #696688;
@@ -141,13 +138,11 @@ body {
         width: 440px;
         .section_1_p {
           font-size: 18px;
-          line-height: 24px;
           margin-top: 19px;
         }
         .section_1_p_1 {
           font-weight: 400;
           font-size: 14px;
-          line-height: 20px;
           margin-top: 8px;
           color: #050038;
         }
@@ -162,10 +157,11 @@ body {
     // Вторая секция
     .section_2 {
       display: flex;
+      justify-content: space-between;
       margin-top: 128px;
       .section_2_block {
         align-self: center;
-        width: 454px;
+        width: 440px;
         .section_2_p {
           color: #696688;
           margin: 19px 0 39px 0;
@@ -178,12 +174,56 @@ body {
     // Третья секция
     .section_3 {
       display: flex;
+      justify-content: space-between;
       align-items: center;
+      margin-top: 120px;
       .section_3_block {
         margin-left: 115px;
-        width: 432px;
+        width: 440px;
         .section_3_p {
           margin: 19px 0 39px 0;
+        }
+      }
+    }
+    // Четвертая секция
+    .section_4 {
+      display: flex;
+      flex-direction: column;
+      margin-top: 148px;
+      .section_4_ul {
+        display: flex;
+        margin-top: 34px;
+        li {
+          margin-left: 8px;
+          .section_4_a {
+            display: flex;
+            align-items: center;
+            border: 1px solid #f2f2f2;
+            border-radius: 24px;
+            padding: 0 18px;
+            height: 48px;
+            color: #050038;
+            &:first-child {
+              margin-left: 0;
+            }
+            &:hover {
+              background-color: #f2f2f2;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .section_4_block {
+        display: flex;
+        margin-top: 26px;
+        .section_4_item {
+          .section_4_h3 {
+            font-size: 18px;
+            font-weight: 400;
+          }
+          .section_4_p {
+            margin: 25px 0 32px 0;
+          }
         }
       }
     }

@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Google Sans Code", "Roboto", "Fira Code";
+  font-family: "Fira Code Regular";
   border: none;
   outline: none;
   list-style: none;
@@ -14,7 +14,7 @@ body {
 body .content {
   max-width: 1200px;
   margin: 0 auto;
-  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.15), -10px 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05), -10px 0 30px rgba(0, 0, 0, 0.05);
   background-color: #fff;
 }
 body .content button {
@@ -29,7 +29,7 @@ body .content button:active {
   background-color: #2e45b8;
 }
 body .content header {
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.4784313725);
   height: 90px;
   padding: 0 20px;
 }
@@ -55,7 +55,6 @@ body .content header nav .nav_block_1 ul li a {
   display: flex;
   font-weight: 400;
   font-size: 16px;
-  line-height: 24px;
   color: #696688;
   text-decoration: none;
 }
@@ -86,7 +85,6 @@ body .content main section h1,
 body .content main section h2 {
   font-weight: 400;
   font-size: 48px;
-  line-height: 56px;
   color: #050038;
 }
 body .content main section form {
@@ -117,7 +115,6 @@ body .content main section form button {
 body .content main section p {
   font-weight: 400;
   font-size: 18px;
-  line-height: 24px;
 }
 body .content main section .section_3_p {
   color: #696688;
@@ -136,13 +133,11 @@ body .content .section_1 .section_1_block {
 }
 body .content .section_1 .section_1_block .section_1_p {
   font-size: 18px;
-  line-height: 24px;
   margin-top: 19px;
 }
 body .content .section_1 .section_1_block .section_1_p_1 {
   font-weight: 400;
   font-size: 14px;
-  line-height: 20px;
   margin-top: 8px;
   color: #050038;
 }
@@ -154,11 +149,12 @@ body .content .section_1 .section_1_block .section_1_container {
 }
 body .content .section_2 {
   display: flex;
+  justify-content: space-between;
   margin-top: 128px;
 }
 body .content .section_2 .section_2_block {
   align-self: center;
-  width: 454px;
+  width: 440px;
 }
 body .content .section_2 .section_2_block .section_2_p {
   color: #696688;
@@ -169,14 +165,55 @@ body .content .section_2 img {
 }
 body .content .section_3 {
   display: flex;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 120px;
 }
 body .content .section_3 .section_3_block {
   margin-left: 115px;
-  width: 432px;
+  width: 440px;
 }
 body .content .section_3 .section_3_block .section_3_p {
   margin: 19px 0 39px 0;
+}
+body .content .section_4 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 148px;
+}
+body .content .section_4 .section_4_ul {
+  display: flex;
+  margin-top: 34px;
+}
+body .content .section_4 .section_4_ul li {
+  margin-left: 8px;
+}
+body .content .section_4 .section_4_ul li .section_4_a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  padding: 0 18px;
+  height: 48px;
+  color: #050038;
+}
+body .content .section_4 .section_4_ul li .section_4_a:first-child {
+  margin-left: 0;
+}
+body .content .section_4 .section_4_ul li .section_4_a:hover {
+  background-color: #f2f2f2;
+  text-decoration: none;
+}
+body .content .section_4 .section_4_block {
+  display: flex;
+  margin-top: 26px;
+}
+body .content .section_4 .section_4_block .section_4_item .section_4_h3 {
+  font-size: 18px;
+  font-weight: 400;
+}
+body .content .section_4 .section_4_block .section_4_item .section_4_p {
+  margin: 25px 0 32px 0;
 }
 body .content .section_5 .section_5_ul .section_5_li::before {
   content: url("../images/Frame.png");
