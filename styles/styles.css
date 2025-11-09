@@ -7,13 +7,6 @@
   outline: none;
 }
 
-a {
-  color: #4262ff;
-}
-a:hover {
-  color: #050038;
-}
-
 header nav ul li a {
   font-weight: 400;
   font-size: 16px;
@@ -21,7 +14,17 @@ header nav ul li a {
   color: #696688;
   text-decoration: none;
 }
+header nav ul li a:hover {
+  text-decoration: underline;
+}
 
+main a {
+  color: #4262ff;
+  text-decoration: none;
+}
+main a:hover {
+  text-decoration: underline;
+}
 main section h1,
 main section h2 {
   font-weight: 400;
@@ -46,7 +49,7 @@ main section form button:hover {
 main section form button:active {
   background-color: #2e45b8;
 }
-main section .sectionOneForm + p {
+main section .section-one-form + p {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -57,26 +60,26 @@ main section p {
   font-size: 18px;
   line-height: 24px;
 }
-main section .sectionThreeP {
+main section .section-three-p {
   color: #696688;
 }
-main section .sectionSevenContainer .sectionSevenImg {
+main section .section-seven-container .section-seven-img {
   width: 48px;
   height: 48px;
 }
-main section ul .sectionFiveLi::before {
+main section ul li a::marker {
   content: url("../images/Frame.png");
 }
 
-.sectionSix {
+.section-six {
   background-color: #ffd02f;
 }
 
-.sectionEight {
+.section-eight {
   background-color: #050038;
   color: #fff;
 }
-.sectionEight .sectionEightContainer h2 {
+.section-eight .section-eight-container h2 {
   color: #fff;
 }
 
