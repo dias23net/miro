@@ -7,83 +7,98 @@
   outline: none;
 }
 
-header nav ul li a {
+.content button {
+  background-color: #4262ff;
+  color: #fff;
+}
+.content button:hover {
+  background-color: #3753df;
+}
+.content button:active {
+  background-color: #2e45b8;
+}
+.content header nav ul li a {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #696688;
   text-decoration: none;
 }
-header nav ul li a:hover {
+.content header nav ul li a:hover {
   text-decoration: underline;
 }
-
-main a {
+.content main section a {
   color: #4262ff;
   text-decoration: none;
 }
-main a:hover {
+.content main section a:hover {
   text-decoration: underline;
 }
-main section h1,
-main section h2 {
+.content main section h1,
+.content main section h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 56px;
   color: #050038;
 }
-main section form input {
+.content main section form input {
   border: 1px solid #ccc;
   transition: border-color 0.3s ease;
 }
-main section form input:invalid {
+.content main section form input:invalid {
   border-color: #ff0000;
 }
-main section form button {
-  background-color: #4262ff;
-  color: #fff;
-}
-main section form button:hover {
-  background-color: #3753df;
-}
-main section form button:active {
-  background-color: #2e45b8;
-}
-main section .section-one-form + p {
+.content main section .section-one-form + p {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   color: #050038;
 }
-main section p {
+.content main section p {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
-main section .section-three-p {
+.content main section .section-three-p {
   color: #696688;
 }
-main section .section-seven-container .section-seven-img {
+.content main section .section-seven-container .section-seven-img {
   width: 48px;
   height: 48px;
 }
-main section ul li a::marker {
+.content .section-five .section-five-ul .section-five-li::before {
   content: url("../images/Frame.png");
 }
-
-.section-six {
+.content .section-six {
   background-color: #ffd02f;
 }
-
-.section-eight {
+.content .section-eight {
   background-color: #050038;
   color: #fff;
 }
-.section-eight .section-eight-container h2 {
+.content .section-eight .section-eight-container h2 {
   color: #fff;
 }
-
-footer {
+.content .section-eight .section-eight-container p {
+  color: #696688;
+}
+.content .section-eight .section-eight-container a {
+  color: #696688;
+  text-decoration: underline;
+}
+.content .section-eight .section-eight-container a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.content footer {
   background-color: #050038;
   color: #fff;
+}
+.content footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.content footer a:hover {
+  color: #696688;
+  text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
