@@ -8,44 +8,50 @@
   list-style: none;
 }
 
-.content {
+body {
+  background-color: #fff;
+}
+body .content {
   max-width: 1200px;
   margin: 0 auto;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.15), -10px 0 20px rgba(0, 0, 0, 0.15);
+  background-color: #fff;
 }
-.content button {
+body .content button {
   background-color: #4262ff;
   color: #fff;
   font-size: 16px;
 }
-.content button:hover {
+body .content button:hover {
   background-color: #3753df;
 }
-.content button:active {
+body .content button:active {
   background-color: #2e45b8;
 }
-.content header {
-  border-bottom: 1px solid #eeeeee;
+body .content header {
+  border-bottom: 1px solid #e0e0e0;
   height: 90px;
+  padding: 0 20px;
 }
-.content header nav {
+body .content header nav {
   display: flex;
   justify-content: space-between;
   height: 90px;
 }
-.content header nav .nav_block_1 {
+body .content header nav .nav_block_1 {
   display: flex;
   align-items: center;
 }
-.content header nav .nav_block_1 ul {
+body .content header nav .nav_block_1 ul {
   display: flex;
 }
-.content header nav .nav_block_1 ul li {
+body .content header nav .nav_block_1 ul li {
   margin-left: 34px;
 }
-.content header nav .nav_block_1 ul li:first-child {
+body .content header nav .nav_block_1 ul li:first-child {
   margin-left: 24px;
 }
-.content header nav .nav_block_1 ul li a {
+body .content header nav .nav_block_1 ul li a {
   display: flex;
   font-weight: 400;
   font-size: 16px;
@@ -53,45 +59,42 @@
   color: #696688;
   text-decoration: none;
 }
-.content header nav .nav_block_1 ul li a:hover {
+body .content header nav .nav_block_1 ul li a:hover {
   text-decoration: underline;
 }
-.content header nav .nav_block_2 {
+body .content header nav .nav_block_2 {
   display: flex;
   align-items: center;
 }
-.content header nav .nav_block_2 a {
-  display: flex;
-}
-.content header nav .nav_block_2 button {
+body .content header nav .nav_block_2 button {
   width: 157px;
   height: 50px;
   margin-left: 88px;
   border-radius: 24px;
 }
-.content main section {
-  padding: 0 20px;
+body .content main section {
+  padding: 0 40px;
 }
-.content main section a {
+body .content main section a {
   color: #4262ff;
   text-decoration: none;
 }
-.content main section a:hover {
+body .content main section a:hover {
   text-decoration: underline;
 }
-.content main section h1,
-.content main section h2 {
+body .content main section h1,
+body .content main section h2 {
   font-weight: 400;
   font-size: 48px;
   line-height: 56px;
   color: #050038;
 }
-.content main section form {
+body .content main section form {
   display: flex;
   flex-direction: column;
   margin-top: 55px;
 }
-.content main section form input {
+body .content main section form input {
   font-size: 24px;
   font-weight: 100;
   color: #5f5f5f;
@@ -102,90 +105,113 @@
   border: 1px solid #ccc;
   transition: border-color 0.3s ease;
 }
-.content main section form input:invalid {
+body .content main section form input:invalid {
   border-color: #ff0000;
 }
-.content main section form button {
+body .content main section form button {
   margin-top: 10px;
   border-radius: 32px;
   width: 440px;
   height: 48px;
 }
-.content main section p {
+body .content main section p {
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
 }
-.content main section .section_3_p {
+body .content main section .section_3_p {
   color: #696688;
 }
-.content main section .section_7_container .section_7_img {
+body .content main section .section_7_container .section_7_img {
   width: 48px;
   height: 48px;
 }
-.content .section_1 {
+body .content .section_1 {
   display: flex;
   justify-content: space-between;
   margin-top: 62px;
 }
-.content .section_1 .section_1_block_1 {
+body .content .section_1 .section_1_block {
   width: 440px;
 }
-.content .section_1 .section_1_block_1 .section_1_p {
+body .content .section_1 .section_1_block .section_1_p {
   font-size: 18px;
   line-height: 24px;
   margin-top: 19px;
 }
-.content .section_1 .section_1_block_1 .section_1_p_1 {
+body .content .section_1 .section_1_block .section_1_p_1 {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
   margin-top: 8px;
   color: #050038;
 }
-.content .section_1 .section_1_block_1 .section_1_container {
+body .content .section_1 .section_1_block .section_1_container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 52px;
 }
-.content .section_5 .section_5_ul .section_5_li::before {
-  content: url("../images/Frame.png");
-}
-.content .section_2 {
+body .content .section_2 {
+  display: flex;
   margin-top: 128px;
 }
-.content .section_6 {
+body .content .section_2 .section_2_block {
+  align-self: center;
+  width: 454px;
+}
+body .content .section_2 .section_2_block .section_2_p {
+  color: #696688;
+  margin: 19px 0 39px 0;
+}
+body .content .section_2 img {
+  margin-left: 116px;
+}
+body .content .section_3 {
+  display: flex;
+  align-items: center;
+}
+body .content .section_3 .section_3_block {
+  margin-left: 115px;
+  width: 432px;
+}
+body .content .section_3 .section_3_block .section_3_p {
+  margin: 19px 0 39px 0;
+}
+body .content .section_5 .section_5_ul .section_5_li::before {
+  content: url("../images/Frame.png");
+}
+body .content .section_6 {
   background-color: #ffd02f;
 }
-.content .section_8 {
+body .content .section_8 {
   background-color: #050038;
   color: #fff;
 }
-.content .section_8 .section_8_container h2 {
+body .content .section_8 .section_8_container h2 {
   color: #fff;
 }
-.content .section_8 .section_8_container p {
+body .content .section_8 .section_8_container p {
   color: #696688;
 }
-.content .section_8 .section_8_container a {
+body .content .section_8 .section_8_container a {
   color: #696688;
   text-decoration: underline;
 }
-.content .section_8 .section_8_container a:hover {
+body .content .section_8 .section_8_container a:hover {
   color: #fff;
   text-decoration: none;
 }
-.content footer {
-  padding: 0 20px;
+body .content footer {
+  padding: 0 40px;
   background-color: #050038;
   color: #fff;
 }
-.content footer a {
+body .content footer a {
   color: #fff;
   text-decoration: none;
 }
-.content footer a:hover {
+body .content footer a:hover {
   color: #696688;
   text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */
