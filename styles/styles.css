@@ -6,6 +6,8 @@
   border: none;
   outline: none;
   list-style: none;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 body {
@@ -119,10 +121,6 @@ body .content main section p {
 body .content main section .section_3_p {
   color: #696688;
 }
-body .content main section .section_7_container .section_7_img {
-  width: 48px;
-  height: 48px;
-}
 body .content .section_1 {
   display: flex;
   justify-content: space-between;
@@ -188,6 +186,9 @@ body .content .section_4 .section_4_ul {
 body .content .section_4 .section_4_ul li {
   margin-left: 8px;
 }
+body .content .section_4 .section_4_ul li:first-child {
+  margin-left: 0;
+}
 body .content .section_4 .section_4_ul li .section_4_a {
   display: flex;
   align-items: center;
@@ -208,14 +209,64 @@ body .content .section_4 .section_4_block {
   display: flex;
   margin-top: 26px;
 }
-body .content .section_4 .section_4_block .section_4_item .section_4_h3 {
+body .content .section_4 .section_4_block .section_4_item {
+  padding: 20px;
+}
+body .content .section_4 .section_4_block .section_4_item h3 {
   font-size: 18px;
   font-weight: 400;
 }
-body .content .section_4 .section_4_block .section_4_item .section_4_p {
+body .content .section_4 .section_4_block .section_4_item p {
   margin: 25px 0 32px 0;
 }
-body .content .section_5 .section_5_ul .section_5_li::before {
+body .content .section_5 {
+  display: flex;
+  flex-direction: column;
+}
+body .content .section_5 h2 {
+  margin-top: 178px;
+}
+body .content .section_5 ul {
+  display: flex;
+  margin-top: 34px;
+}
+body .content .section_5 ul li {
+  margin-left: 8px;
+}
+body .content .section_5 ul li:first-child {
+  margin-left: 0;
+}
+body .content .section_5 ul li a {
+  display: flex;
+  align-items: center;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+  padding: 0 18px;
+  height: 48px;
+  margin-left: 8px;
+  color: #050038;
+}
+body .content .section_5 ul li a:first-child {
+  margin-left: 0;
+}
+body .content .section_5 ul li a:hover {
+  background-color: #f2f2f2;
+  text-decoration: none;
+}
+body .content .section_5 .section_5_block {
+  display: flex;
+  margin: 26px 0 0;
+}
+body .content .section_5 .section_5_block .section_5_item {
+  display: flex;
+  flex-direction: column;
+}
+body .content .section_5 .section_5_block .section_5_item ul li {
+  display: flex;
+  align-items: center;
+}
+body .content .section_5 .section_5_block .section_5_item ul li::before {
+  margin-right: 14px;
   content: url("../images/Frame.png");
 }
 body .content .section_6 {

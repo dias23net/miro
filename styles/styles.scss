@@ -7,6 +7,7 @@
   border: none;
   outline: none;
   list-style: none;
+  object-fit: contain;
 }
 body {
   background-color: #fff;
@@ -14,8 +15,7 @@ body {
   .content {
     max-width: 1200px;
     margin: 0 auto;
-    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05),
-      -10px 0 30px rgba(0, 0, 0, 0.05);
+    box-shadow: 10px 0 30px rgba(0, 0, 0, 0.05), -10px 0 30px rgba(0, 0, 0, 0.05);
     background-color: #fff;
     button {
       background-color: #4262ff;
@@ -121,12 +121,6 @@ body {
         .section_3_p {
           color: #696688;
         }
-        .section_7_container {
-          .section_7_img {
-            width: 48px;
-            height: 48px;
-          }
-        }
       }
     }
     // Первая секция
@@ -195,6 +189,9 @@ body {
         margin-top: 34px;
         li {
           margin-left: 8px;
+          &:first-child {
+            margin-left: 0;
+          }
           .section_4_a {
             display: flex;
             align-items: center;
@@ -217,11 +214,12 @@ body {
         display: flex;
         margin-top: 26px;
         .section_4_item {
-          .section_4_h3 {
+          padding: 20px;
+          h3 {
             font-size: 18px;
             font-weight: 400;
           }
-          .section_4_p {
+          p {
             margin: 25px 0 32px 0;
           }
         }
@@ -229,10 +227,53 @@ body {
     }
     // Пятая секция
     .section_5 {
-      .section_5_ul {
-        .section_5_li {
-          &::before {
-            content: url("../images/Frame.png");
+      display: flex;
+      flex-direction: column;
+      h2 {
+        margin-top: 178px;
+      }
+      ul {
+        display: flex;
+        margin-top: 34px;
+        li {
+          margin-left: 8px;
+          &:first-child {
+            margin-left: 0;
+          }
+          a {
+            display: flex;
+            align-items: center;
+            border: 1px solid #f2f2f2;
+            border-radius: 24px;
+            padding: 0 18px;
+            height: 48px;
+            margin-left: 8px;
+            color: #050038;
+            &:first-child {
+              margin-left: 0;
+            }
+            &:hover {
+              background-color: #f2f2f2;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .section_5_block {
+        display: flex;
+        margin: 26px 0 0;
+        .section_5_item {
+          display: flex;
+          flex-direction: column;
+          ul {
+            li {
+              display: flex;
+              align-items: center;
+              &::before {
+                margin-right: 14px;
+                content: url("../images/Frame.png");
+              }
+            }
           }
         }
       }
