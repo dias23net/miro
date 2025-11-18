@@ -116,9 +116,6 @@ body {
         p {
           font-size: 18px;
         }
-        .section_3_p {
-          color: #696688;
-        }
       }
     }
     // 1 секция
@@ -128,8 +125,8 @@ body {
       .section_1_block {
         width: 440px;
         .section_1_p {
-          font-size: 18px;
           margin-top: 19px;
+          color: #696688;
         }
         .section_1_p_1 {
           font-size: 14px;
@@ -169,6 +166,7 @@ body {
         margin-left: 115px;
         width: 440px;
         .section_3_p {
+          color: #696688;
           margin: 19px 0 39px 0;
         }
       }
@@ -209,11 +207,12 @@ body {
           justify-content: center;
           padding: 20px;
           h3 {
-            font-size: 18px;
+            font-size: 42px;
           }
           p {
             margin: 25px 0 32px 0;
             font-size: 16px;
+            color: #696688;
           }
         }
       }
@@ -314,9 +313,6 @@ body {
       .section_6_item {
         img {
           margin-bottom: 25px;
-        }
-        p {
-          font-size: 18px;
         }
       }
     }

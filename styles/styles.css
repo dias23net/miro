@@ -113,9 +113,6 @@ body .content main section form button {
 body .content main section p {
   font-size: 18px;
 }
-body .content main section .section_3_p {
-  color: #696688;
-}
 body .content .section_1 {
   display: flex;
   justify-content: space-between;
@@ -124,8 +121,8 @@ body .content .section_1 .section_1_block {
   width: 440px;
 }
 body .content .section_1 .section_1_block .section_1_p {
-  font-size: 18px;
   margin-top: 19px;
+  color: #696688;
 }
 body .content .section_1 .section_1_block .section_1_p_1 {
   font-size: 14px;
@@ -163,6 +160,7 @@ body .content .section_3 .section_3_block {
   width: 440px;
 }
 body .content .section_3 .section_3_block .section_3_p {
+  color: #696688;
   margin: 19px 0 39px 0;
 }
 body .content .section_4 {
@@ -201,11 +199,12 @@ body .content .section_4 .section_4_block .section_4_item {
   padding: 20px;
 }
 body .content .section_4 .section_4_block .section_4_item h3 {
-  font-size: 18px;
+  font-size: 42px;
 }
 body .content .section_4 .section_4_block .section_4_item p {
   margin: 25px 0 32px 0;
   font-size: 16px;
+  color: #696688;
 }
 body .content .section_5 {
   display: flex;
@@ -300,9 +299,6 @@ body .content .section_6 .section_6_header a:hover {
 }
 body .content .section_6 .section_6_item img {
   margin-bottom: 25px;
-}
-body .content .section_6 .section_6_item p {
-  font-size: 18px;
 }
 body .content .section_7 {
   display: grid;
