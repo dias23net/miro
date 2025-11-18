@@ -337,39 +337,45 @@ body .content .section_7 .section_7_container .section_7_container_header p {
 }
 body .content .section_7 .section_7_container .section_7_users {
   display: flex;
+  align-items: center;
   margin-top: 40px;
 }
 body .content .section_7 .section_7_container .section_7_users p {
   margin-left: 20px;
+  font-size: 14px;
 }
-body .content .section_8 {
+body .content .section_7 .section_7_container .section_7_users p span {
+  color: #5f5f5f;
+  text-decoration: underline;
+}
+body .section_8 {
   background-color: #050038;
   color: #fff;
 }
-body .content .section_8 .section_8_container .section_8_h2 {
+body .section_8 .section_8_container .section_8_h2 {
   color: #fff;
 }
-body .content .section_8 .section_8_container p {
+body .section_8 .section_8_container p {
   color: #696688;
 }
-body .content .section_8 .section_8_container a {
+body .section_8 .section_8_container a {
   color: #696688;
   text-decoration: underline;
 }
-body .content .section_8 .section_8_container a:hover {
+body .section_8 .section_8_container a:hover {
   color: #fff;
   text-decoration: none;
 }
-body .content footer {
+body footer {
   padding: 150px 40px 20px;
   background-color: #050038;
   color: #fff;
 }
-body .content footer a {
+body footer a {
   color: #fff;
   text-decoration: none;
 }
-body .content footer a:hover {
+body footer a:hover {
   color: #696688;
   text-decoration: underline;
 }/*# sourceMappingURL=styles.css.map */

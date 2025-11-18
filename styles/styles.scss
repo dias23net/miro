@@ -354,47 +354,53 @@ body {
         }
         .section_7_users {
           display: flex;
+          align-items: center;
           margin-top: 40px;
           p {
             margin-left: 20px;
+            font-size: 14px;
+            span {
+              color: #5f5f5f;
+              text-decoration: underline;
+            }
           }
         }
       }
     }
-    // 8 секция
-    .section_8 {
-      background-color: #050038;
-      color: #fff;
-      .section_8_container {
-        .section_8_h2 {
-          color: #fff;
-        }
-        p {
-          color: #696688;
-        }
-        a {
-          color: #696688;
-          text-decoration: underline;
-          &:hover {
-            color: #fff;
-            text-decoration: none;
-          }
-        }
-      }
-    }
-    // Подвал
-    footer {
-      padding: 150px 40px 20px;
-      a {
+  }
+  // 8 секция
+  .section_8 {
+    background-color: #050038;
+    color: #fff;
+    .section_8_container {
+      .section_8_h2 {
         color: #fff;
-        text-decoration: none;
+      }
+      p {
+        color: #696688;
+      }
+      a {
+        color: #696688;
+        text-decoration: underline;
         &:hover {
-          color: #696688;
-          text-decoration: underline;
+          color: #fff;
+          text-decoration: none;
         }
       }
-      background-color: #050038;
-      color: #fff;
     }
+  }
+  // Подвал
+  footer {
+    padding: 150px 40px 20px;
+    a {
+      color: #fff;
+      text-decoration: none;
+      &:hover {
+        color: #696688;
+        text-decoration: underline;
+      }
+    }
+    background-color: #050038;
+    color: #fff;
   }
 }
