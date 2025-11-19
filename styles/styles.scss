@@ -370,22 +370,40 @@ body {
   }
   // 8 секция
   .section_8 {
+    display: flex;
+    justify-content: center;
     background-color: #050038;
     color: #fff;
+    margin: 120px 40px;
+    border-radius: 16px;
     .section_8_container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 750px;
       .section_8_h2 {
+        text-align: center;
         color: #fff;
       }
       p {
         color: #696688;
+        margin-top: 20px;
+        text-align: center;
       }
       a {
         color: #696688;
         text-decoration: underline;
+        margin-top: 10px;
         &:hover {
           color: #fff;
           text-decoration: none;
         }
+      }
+      button {
+        width: 250px;
+        height: 48px;
+        border-radius: 32px;
+        margin-top: 40px;
       }
     }
   }

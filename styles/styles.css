@@ -349,22 +349,42 @@ body .content .section_7 .section_7_container .section_7_users p span {
   text-decoration: underline;
 }
 body .section_8 {
+  display: flex;
+  justify-content: center;
   background-color: #050038;
   color: #fff;
+  margin: 120px 40px;
+  border-radius: 16px;
+}
+body .section_8 .section_8_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 750px;
 }
 body .section_8 .section_8_container .section_8_h2 {
+  text-align: center;
   color: #fff;
 }
 body .section_8 .section_8_container p {
   color: #696688;
+  margin-top: 20px;
+  text-align: center;
 }
 body .section_8 .section_8_container a {
   color: #696688;
   text-decoration: underline;
+  margin-top: 10px;
 }
 body .section_8 .section_8_container a:hover {
   color: #fff;
   text-decoration: none;
+}
+body .section_8 .section_8_container button {
+  width: 250px;
+  height: 48px;
+  border-radius: 32px;
+  margin-top: 40px;
 }
 body footer {
   padding: 150px 40px 20px;
