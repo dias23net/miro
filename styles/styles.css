@@ -360,16 +360,18 @@ body .section_8 .section_8_container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 750px;
+  width: 600px;
 }
 body .section_8 .section_8_container .section_8_h2 {
   text-align: center;
   color: #fff;
+  letter-spacing: -1px;
 }
 body .section_8 .section_8_container p {
   color: #696688;
   margin-top: 20px;
   text-align: center;
+  letter-spacing: 1px;
 }
 body .section_8 .section_8_container a {
   color: #696688;

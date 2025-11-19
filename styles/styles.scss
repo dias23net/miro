@@ -380,15 +380,17 @@ body {
       display: flex;
       flex-direction: column;
       align-items: center;
-      width: 750px;
+      width: 600px;
       .section_8_h2 {
         text-align: center;
         color: #fff;
+        letter-spacing: -1px;
       }
       p {
         color: #696688;
         margin-top: 20px;
         text-align: center;
+        letter-spacing: 1px;
       }
       a {
         color: #696688;
