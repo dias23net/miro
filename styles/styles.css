@@ -64,6 +64,18 @@ body .content header nav .nav_block_2 {
   display: flex;
   align-items: center;
 }
+body .content header nav .nav_block_2 a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: bold;
+}
+body .content header nav .nav_block_2 a:hover {
+  text-decoration: underline;
+}
+body .content header nav .nav_block_2 a img {
+  margin-right: 10px;
+}
 body .content header nav .nav_block_2 button {
   width: 157px;
   height: 50px;
