@@ -9,16 +9,15 @@
   list-style: none;
   -o-object-fit: contain;
      object-fit: contain;
+  color: #fff;
 }
 
 body .content {
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #fff;
 }
 body .content button {
   background-color: #3753df;
-  color: #fff;
   font-size: 16px;
 }
 body .content button:hover {
@@ -96,6 +95,7 @@ body .content main section h2 {
 }
 body .content main section p {
   font-size: 18px;
+  color: #696688;
 }
 body .content main section form {
   display: flex;
@@ -131,12 +131,10 @@ body .content .section_1 .section_1_block {
 }
 body .content .section_1 .section_1_block .section_1_p {
   margin-top: 19px;
-  color: #696688;
 }
 body .content .section_1 .section_1_block .section_1_p_1 {
   font-size: 14px;
   margin-top: 20px;
-  color: #696688;
   text-align: center;
 }
 body .content .section_1 .section_1_block .section_1_container {
@@ -148,6 +146,9 @@ body .content .section_1 .section_1_block .section_1_container {
 body .content .section_1 .section_1_block .section_1_container .section_1_container_p {
   color: #5f5f5f;
 }
+body .content .section_1 .section_1_block .section_1_container .section_1_container_p data {
+  color: #5f5f5f;
+}
 body .content .section_2 {
   display: flex;
   justify-content: space-between;
@@ -157,7 +158,6 @@ body .content .section_2 .section_2_block {
   width: 440px;
 }
 body .content .section_2 .section_2_block .section_2_p {
-  color: #696688;
   margin: 19px 0 39px 0;
 }
 body .content .section_2 img {
@@ -173,7 +173,6 @@ body .content .section_3 .section_3_block {
   width: 440px;
 }
 body .content .section_3 .section_3_block .section_3_p {
-  color: #696688;
   margin: 19px 0 39px 0;
 }
 body .content .section_4 {
@@ -213,11 +212,11 @@ body .content .section_4 .section_4_block .section_4_item {
 }
 body .content .section_4 .section_4_block .section_4_item h3 {
   font-size: 42px;
+  color: #050038;
 }
 body .content .section_4 .section_4_block .section_4_item p {
   margin: 25px 0 32px 0;
   font-size: 16px;
-  color: #696688;
 }
 body .content .section_5 {
   display: flex;
@@ -310,6 +309,9 @@ body .content .section_6 .section_6_header a {
 body .content .section_6 .section_6_item img {
   margin-bottom: 25px;
 }
+body .content .section_6 .section_6_item p {
+  color: #050038;
+}
 body .content .section_7 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -366,7 +368,6 @@ body .section_8 {
   display: flex;
   justify-content: center;
   background-color: #050038;
-  color: #fff;
   margin: 120px 40px;
   border-radius: 16px;
 }
@@ -382,37 +383,34 @@ body .section_8 .section_8_container .section_8_h2 {
   letter-spacing: -1px;
 }
 body .section_8 .section_8_container p {
-  color: #696688;
   margin-top: 20px;
   text-align: center;
   letter-spacing: 1px;
 }
 body .section_8 .section_8_container a {
+  text-decoration: none;
+  margin-top: 40px;
   color: #696688;
-  text-decoration: underline;
-  margin-top: 10px;
+  font-size: 14px;
 }
 body .section_8 .section_8_container a:hover {
-  color: #fff;
-  text-decoration: none;
+  text-decoration: underline;
+  color: #ccc;
 }
 body .section_8 .section_8_container button {
   width: 250px;
   height: 48px;
   border-radius: 32px;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 body footer {
   padding: 40px 40px 20px;
   background-color: #050038;
-  color: #fff;
 }
 body footer a {
-  color: #fff;
   text-decoration: none;
 }
 body footer a:hover {
-  color: #696688;
   text-decoration: underline;
 }
 body footer .footer_container {
@@ -434,6 +432,10 @@ body footer .footer_container .footer_product h4 {
 body footer .footer_container .footer_product a {
   font-size: 16px;
   line-height: 24px;
+  color: #696688;
+}
+body footer .footer_container .footer_product a:hover {
+  color: #ccc;
 }
 body footer hr {
   width: 100%;
@@ -447,9 +449,13 @@ body footer .footer_socials_policy {
 }
 body footer .footer_socials_policy a {
   margin-left: 15px;
+  color: #696688;
 }
 body footer .footer_socials_policy a:first-child {
   margin-left: 0;
+}
+body footer .footer_socials_policy a:hover {
+  color: #ccc;
 }
 body footer .footer_socials_policy .copyright {
   margin-left: 40px;
