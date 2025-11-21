@@ -9,7 +9,6 @@
   list-style: none;
   -o-object-fit: contain;
      object-fit: contain;
-  font-weight: 400;
 }
 
 body .content {
@@ -403,7 +402,7 @@ body .section_8 .section_8_container button {
   margin-top: 40px;
 }
 body footer {
-  padding: 150px 40px 20px;
+  padding: 40px 40px 20px;
   background-color: #050038;
   color: #fff;
 }
@@ -414,4 +413,52 @@ body footer a {
 body footer a:hover {
   color: #696688;
   text-decoration: underline;
+}
+body footer .footer_container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: auto;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 80px;
+}
+body footer .footer_container .footer_product {
+  display: flex;
+  flex-direction: column;
+}
+body footer .footer_container .footer_product h4 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+body footer .footer_container .footer_product a {
+  font-size: 16px;
+  line-height: 24px;
+}
+body footer hr {
+  width: 100%;
+  height: 1px;
+  margin-top: 80px;
+  background: #9b99af;
+}
+body footer .footer_socials_policy {
+  display: flex;
+  margin-top: 80px;
+}
+body footer .footer_socials_policy a {
+  margin-left: 15px;
+}
+body footer .footer_socials_policy a:first-child {
+  margin-left: 0;
+}
+body footer .footer_socials_policy .copyright {
+  margin-left: 40px;
+}
+body footer .footer_downloads {
+  margin-top: 20px;
+}
+body footer .footer_downloads a {
+  margin-left: 15px;
+}
+body footer .footer_downloads a:first-child {
+  margin-left: 0;
 }/*# sourceMappingURL=styles.css.map */
