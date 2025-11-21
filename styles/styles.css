@@ -278,6 +278,7 @@ body .content .section_5 .section_5_block .section_5_item .section_5_p {
 }
 body .content .section_5 .section_5_block .section_5_item .section_5_a1 {
   margin-left: 10px;
+  text-decoration: none;
 }
 body .content .section_5 .section_5_block .section_5_item .section_5_a1:first-child {
   margin-left: 0;
@@ -464,6 +465,7 @@ body footer .footer_downloads {
   margin-top: 20px;
 }
 body footer .footer_downloads a {
+  text-decoration: none;
   margin-left: 15px;
 }
 body footer .footer_downloads a:first-child {
