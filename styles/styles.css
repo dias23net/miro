@@ -307,9 +307,6 @@ body .content .section_6 .section_6_header a {
   margin-top: 20px;
   color: #050038;
 }
-body .content .section_6 .section_6_header a:hover {
-  color: rgba(5, 0, 56, 0.6980392157);
-}
 body .content .section_6 .section_6_item img {
   margin-bottom: 25px;
 }
