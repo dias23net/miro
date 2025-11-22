@@ -1,0 +1,47 @@
+@media (max-width: 992px) {
+  .content {
+    header {
+      height: 70px;
+      nav {
+        .nav_block_1 {
+          ul {
+            li {
+              margin-left: 24px;
+              a {
+                font-size: 14px;
+              }
+            }
+          }
+        }
+        .nav_block_2 {
+          button {
+            margin-left: 40px;
+          }
+        }
+      }
+    }
+  }
+  .section_1 {
+    .section_1_block {
+      width: 436px;
+      h1 {
+        font-size: 32px;
+      }
+      p {
+        font-size: 14px;
+      }
+      form {
+        margin-top: 30px;
+        width: 436px;
+      }
+      .section_1_container {
+        margin-top: 20px;
+      }
+    }
+    img {
+      width: 436px;
+      max-width: 100%;
+      height: auto;
+    }
+  }
+}
