@@ -20,28 +20,34 @@
         }
       }
     }
-  }
-  .section_1 {
-    .section_1_block {
-      width: 436px;
-      h1 {
-        font-size: 32px;
-      }
-      p {
-        font-size: 14px;
-      }
-      form {
-        margin-top: 30px;
+    .section_1 {
+      .section_1_block {
         width: 436px;
+        h1 {
+          font-size: 32px;
+        }
+        p {
+          font-size: 14px;
+        }
+        form {
+          margin-top: 30px;
+          width: 436px;
+        }
+        .section_1_container {
+          display: grid;
+          grid-template-rows: repeat(2, 1fr);
+          grid-template-columns: repeat(4, 1fr);
+          margin-top: 20px;
+          p {
+            grid-column: 1 / 5;
+          }
+        }
       }
-      .section_1_container {
-        margin-top: 20px;
+      img {
+        width: 436px;
+        max-width: 100%;
+        height: auto;
       }
-    }
-    img {
-      width: 436px;
-      max-width: 100%;
-      height: auto;
     }
   }
 }
