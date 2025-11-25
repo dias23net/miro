@@ -36,6 +36,7 @@
         align-items: center;
         ul {
           display: flex;
+          flex: 1 1 auto;
           li {
             margin-left: 34px;
             &:first-child {
@@ -43,8 +44,8 @@
             }
             a {
               display: flex;
-              font-size: 16px;
-
+              /* адаптивный размер шрифта: min 14px, предпочитаемый 1.6vw, max 16px */
+              font-size: clamp(14px, 1.6vw, 16px);
               color: #696688;
               text-decoration: none;
               &:hover {
