@@ -44,7 +44,6 @@
             }
             a {
               display: flex;
-              /* адаптивный размер шрифта: min 14px, предпочитаемый 1.6vw, max 16px */
               font-size: clamp(14px, 1.6vw, 16px);
               color: #696688;
               text-decoration: none;
@@ -166,16 +165,12 @@
   // 2 секция
   .section_2 {
     display: flex;
-    justify-content: space-between;
+    gap: 40px;
     .section_2_block {
       align-self: center;
-      width: 440px;
       .section_2_p {
         margin: 19px 0 39px 0;
       }
-    }
-    img {
-      margin-left: 116px;
     }
   }
   // 3 секция

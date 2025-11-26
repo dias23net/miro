@@ -23,15 +23,16 @@
         }
       }
     }
+    // Секция 1
     .section_1 {
+      display: flex;
       .section_1_block {
-        width: 436px;
         h1 {
           font-size: 32px;
           font-weight: 500;
         }
         p {
-          font-size: 14px;
+          font-size: 16px;
         }
         form {
           margin-top: 30px;
@@ -51,6 +52,19 @@
         width: 436px;
         max-width: 100%;
         height: auto;
+      }
+    }
+    // Секция 2
+    .section_2 {
+      .section_2_block {
+        h2 {
+          font-size: 32px;
+        }
+        .section_2_p {
+          font-size: 16px;
+        }
+      }
+      img {
       }
     }
   }
