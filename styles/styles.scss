@@ -8,7 +8,6 @@
   border: none;
   outline: none;
   list-style: none;
-  object-fit: contain;
   color: #fff;
 }
 // Контент
@@ -83,7 +82,7 @@
   // Главное
   main {
     section {
-      padding: 150px 40px;
+      padding: 80px 40px;
       a {
         color: #4262ff;
         text-decoration: none;
@@ -135,6 +134,7 @@
     justify-content: space-between;
     .section_1_block {
       width: 440px;
+      height: auto;
       .section_1_p {
         margin-top: 19px;
       }
@@ -156,21 +156,31 @@
         }
         a {
           img {
+            width: auto;
             height: 33px;
           }
         }
       }
     }
+    img {
+      width: 100%;
+    }
   }
   // 2 секция
   .section_2 {
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
     .section_2_block {
+      width: 440px;
       align-self: center;
       .section_2_p {
         margin: 19px 0 39px 0;
       }
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
     }
   }
   // 3 секция
