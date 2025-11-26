@@ -73,6 +73,8 @@
   text-decoration: underline;
 }
 .content header nav .nav_block_2 a img {
+  -o-object-fit: fill;
+     object-fit: fill;
   margin-right: 10px;
 }
 .content header nav .nav_block_2 button {
@@ -131,7 +133,7 @@
   justify-content: space-between;
 }
 .content .section_1 .section_1_block {
-  max-width: 440px;
+  width: 440px;
 }
 .content .section_1 .section_1_block .section_1_p {
   margin-top: 19px;
@@ -483,22 +485,26 @@ footer .footer_downloads a:first-child {
 
 @media (max-width: 992px) {
   .content header {
-    height: 70px;
+    height: 60px;
   }
   .content header nav .nav_block_1 ul li {
     margin-left: 24px;
   }
-  .content header nav .nav_block_1 ul li a {
+  .content header nav .nav_block_2 a {
     font-size: 14px;
   }
   .content header nav .nav_block_2 button {
     margin-left: 40px;
+    width: 135px;
+    height: 45px;
+    font-size: 16px;
   }
   .content .section_1 .section_1_block {
     width: 436px;
   }
   .content .section_1 .section_1_block h1 {
     font-size: 32px;
+    font-weight: 500;
   }
   .content .section_1 .section_1_block p {
     font-size: 14px;

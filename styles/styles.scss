@@ -68,6 +68,7 @@
             text-decoration: underline;
           }
           img {
+            object-fit: fill;
             margin-right: 10px;
           }
         }
@@ -134,7 +135,7 @@
     display: flex;
     justify-content: space-between;
     .section_1_block {
-      max-width: 440px;
+      width: 440px;
       .section_1_p {
         margin-top: 19px;
       }

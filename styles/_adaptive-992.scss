@@ -1,21 +1,24 @@
 @media (max-width: 992px) {
   .content {
     header {
-      height: 70px;
+      height: 60px;
       nav {
         .nav_block_1 {
           ul {
             li {
               margin-left: 24px;
-              a {
-                font-size: 14px;
-              }
             }
           }
         }
         .nav_block_2 {
+          a {
+            font-size: 14px;
+          }
           button {
             margin-left: 40px;
+            width: 135px;
+            height: 45px;
+            font-size: 16px;
           }
         }
       }
@@ -25,6 +28,7 @@
         width: 436px;
         h1 {
           font-size: 32px;
+          font-weight: 500;
         }
         p {
           font-size: 14px;
