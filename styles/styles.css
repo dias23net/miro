@@ -127,6 +127,7 @@
 .content .section_1 {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 .content .section_1 .section_1_block {
   width: 440px;
