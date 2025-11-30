@@ -7,6 +7,7 @@
   font-weight: normal;
   border: none;
   outline: none;
+  object-fit: contain;
   list-style: none;
   color: #fff;
 }
@@ -153,13 +154,16 @@
         a {
           img {
             width: auto;
-            height: 33px;
+            height: auto;
           }
         }
       }
     }
     img {
       width: 50%;
+      height: auto;
+      max-width: 100%;
+      display: block;
     }
   }
   // 2 секция
@@ -176,6 +180,9 @@
     }
     img {
       width: 50%;
+      height: auto;
+      max-width: 100%;
+      display: block;
     }
   }
   // 3 секция
