@@ -83,6 +83,9 @@
   // Главное
   main {
     section {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
       padding: 80px 40px;
       a {
         color: #4262ff;
@@ -128,9 +131,6 @@
   }
   // 1 секция
   .section_1 {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
     .section_1_block {
       width: 100%;
       .section_1_p {
@@ -168,9 +168,6 @@
   }
   // 2 секция
   .section_2 {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
     .section_2_block {
       width: 100%;
       align-self: center;
@@ -187,11 +184,14 @@
   }
   // 3 секция
   .section_3 {
-    display: flex;
-    justify-content: space-between;
     align-items: center;
+    img {
+      width: 50%;
+      height: auto;
+      max-width: 100%;
+      display: block;
+    }
     .section_3_block {
-      margin-left: 115px;
       width: 440px;
       .section_3_p {
         margin: 19px 0 39px 0;
