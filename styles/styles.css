@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Roboto";
   font-weight: normal;
@@ -10,12 +10,9 @@
      object-fit: contain;
   list-style: none;
   color: #fff;
+  max-width: 1200px;
 }
 
-.content {
-  max-width: 1200px;
-  margin: 0 auto;
-}
 .content button {
   background-color: #3753df;
   font-size: 16px;
@@ -24,10 +21,14 @@
   background-color: #0b30e9;
 }
 .content header {
-  border-bottom: 1px solid rgba(230, 230, 230, 0.4784313725);
+  border-radius: 38px;
+  box-shadow: 0 10px 10px rgba(167, 167, 167, 0.2);
   height: 90px;
-  padding: 0 20px;
+  padding: 10px 20px 0;
   align-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
 }
 .content header nav {
   display: flex;
@@ -39,7 +40,6 @@
 }
 .content header nav .nav_block_1 ul {
   display: flex;
-  flex: 1 1 auto;
 }
 .content header nav .nav_block_1 ul li {
   margin-left: 34px;
@@ -59,6 +59,7 @@
 .content header nav .nav_block_2 {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .content header nav .nav_block_2 a {
   display: flex;
@@ -78,7 +79,6 @@
 .content header nav .nav_block_2 button {
   width: 157px;
   height: 50px;
-  margin-left: 88px;
   border-radius: 24px;
 }
 .content main section {
@@ -109,6 +109,7 @@
   margin-top: 55px;
 }
 .content main section form input {
+  width: 100%;
   text-align: center;
   font-size: 18px;
   color: #050038;
@@ -122,9 +123,13 @@
   border-color: #ff0000;
 }
 .content main section form button {
+  width: 100%;
   margin-top: 10px;
   border-radius: 32px;
   height: 48px;
+}
+.content .section_1 {
+  padding-top: 180px;
 }
 .content .section_1 .section_1_block {
   width: 100%;

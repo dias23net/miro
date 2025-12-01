@@ -1,7 +1,7 @@
 // Универсальный селектор
 * {
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-family: "Roboto";
   font-weight: normal;
@@ -10,11 +10,10 @@
   object-fit: contain;
   list-style: none;
   color: #fff;
+  max-width: 1200px;
 }
 // Контент
 .content {
-  max-width: 1200px;
-  margin: 0 auto;
   button {
     background-color: #3753df;
     font-size: 16px;
@@ -24,10 +23,14 @@
   }
   // Навигация
   header {
-    border-bottom: 1px solid #e6e6e67a;
+    border-radius: 38px;
+    box-shadow: 0 10px 10px #a7a7a733;
     height: 90px;
-    padding: 0 20px;
+    padding: 10px 20px 0;
     align-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
     nav {
       display: flex;
       justify-content: space-between;
@@ -36,7 +39,6 @@
         align-items: center;
         ul {
           display: flex;
-          flex: 1 1 auto;
           li {
             margin-left: 34px;
             &:first-child {
@@ -57,6 +59,7 @@
       .nav_block_2 {
         display: flex;
         align-items: center;
+        gap: 40px;
         a {
           display: flex;
           align-items: center;
@@ -74,7 +77,6 @@
         button {
           width: 157px;
           height: 50px;
-          margin-left: 88px;
           border-radius: 24px;
         }
       }
@@ -109,6 +111,7 @@
         flex-direction: column;
         margin-top: 55px;
         input {
+          width: 100%;
           text-align: center;
           font-size: 18px;
           color: #050038;
@@ -122,6 +125,7 @@
           }
         }
         button {
+          width: 100%;
           margin-top: 10px;
           border-radius: 32px;
           height: 48px;
@@ -131,6 +135,7 @@
   }
   // 1 секция
   .section_1 {
+    padding-top: 180px;
     .section_1_block {
       width: 100%;
       .section_1_p {
