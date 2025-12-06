@@ -22,12 +22,13 @@ body {
     // Навигация
     header {
       border-radius: 38px;
-      box-shadow: 0 10px 10px #a7a7a733;
+      border: 1px solid #d4d4d4;
       height: 90px;
-      padding: 10px 20px 0;
+      padding: 0 20px;
+      margin-top: 10px;
       align-content: center;
       position: fixed;
-      background-color: #fff;
+      background-color: #ffffff;
       nav {
         display: flex;
         justify-content: space-between;
