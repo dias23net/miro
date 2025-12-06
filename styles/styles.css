@@ -243,6 +243,12 @@ body .content .section_4 .section_4_block .section_4_item p {
   margin: 25px 0 32px 0;
   font-size: 16px;
 }
+body .content .section_4 .section_4_block img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
+}
 body .content .section_5 {
   display: flex;
   flex-direction: column;
