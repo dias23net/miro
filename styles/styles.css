@@ -208,7 +208,6 @@ body .content .section_4 .section_4_ul {
 }
 body .content .section_4 .section_4_ul li {
   list-style: none;
-  padding-left: 0;
 }
 body .content .section_4 .section_4_ul li .section_4_a {
   display: flex;
@@ -259,6 +258,9 @@ body .content .section_5 .section_5_ul1 {
   justify-content: space-between;
   margin-top: 34px;
 }
+body .content .section_5 .section_5_ul1 .section_5_li1 {
+  list-style: none;
+}
 body .content .section_5 .section_5_ul1 .section_5_li1 .section_5_a {
   display: flex;
   align-items: center;
@@ -281,14 +283,14 @@ body .content .section_5 .section_5_block {
   justify-content: space-between;
   margin-top: 40px;
 }
-body .content .section_5 .section_5_block .section_5_item {
+body .content .section_5 .section_5_block .section_5_item .section_5_wrapper {
   display: flex;
-  flex-direction: column;
-  width: 300px;
+}
+body .content .section_5 .section_5_block .section_5_item .section_5_wrapper img {
+  width: auto;
+  height: auto;
 }
 body .content .section_5 .section_5_block .section_5_item .section_5_ul2 {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
 }
 body .content .section_5 .section_5_block .section_5_item .section_5_ul2 .section_5_li2 {
@@ -314,6 +316,12 @@ body .content .section_5 .section_5_block .section_5_item .section_5_a1 {
 }
 body .content .section_5 .section_5_block .section_5_item .section_5_a1:first-child {
   margin-left: 0;
+}
+body .content .section_5 .section_5_block img {
+  width: 50%;
+  height: auto;
+  max-width: 100%;
+  display: flex;
 }
 body .content .section_6 {
   display: grid;
