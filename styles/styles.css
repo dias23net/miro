@@ -29,6 +29,7 @@ body .content header {
   align-content: center;
   position: fixed;
   background-color: #ffffff;
+  width: 1200px;
 }
 body .content header nav {
   display: flex;
