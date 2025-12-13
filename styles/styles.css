@@ -467,6 +467,7 @@ body footer .footer_container .footer_product {
   flex-direction: column;
 }
 body footer .footer_container .footer_product h4 {
+  font-weight: 100;
   font-size: 24px;
   margin-bottom: 40px;
   color: #fff;
