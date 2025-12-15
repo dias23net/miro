@@ -21,15 +21,9 @@ body {
     }
     // Навигация
     header {
-      border-radius: 38px;
-      border: 1px solid #d4d4d4;
       height: 90px;
       padding: 0 20px;
-      margin-top: 10px;
       align-content: center;
-      position: fixed;
-      background-color: #ffffff;
-      width: 1200px;
       nav {
         display: flex;
         justify-content: space-between;
@@ -138,7 +132,6 @@ body {
     }
     // 1 секция
     .section_1 {
-      padding-top: 180px;
       .section_1_block {
         width: 100%;
         .section_1_p {
@@ -535,5 +528,5 @@ body {
       }
     }
   }
+  @import "./adaptive-992.scss";
 }
-@import "./adaptive-992.scss";
