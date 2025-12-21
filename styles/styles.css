@@ -199,6 +199,10 @@ body .content .section_4 .section_4_ul {
 }
 body .content .section_4 .section_4_ul li {
   list-style: none;
+  margin-right: 10px;
+}
+body .content .section_4 .section_4_ul li:last-child {
+  margin-right: 0;
 }
 body .content .section_4 .section_4_ul li .section_4_a {
   display: flex;
