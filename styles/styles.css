@@ -522,46 +522,56 @@ body footer .footer_downloads a:first-child {
     height: 45px;
     font-size: 16px;
   }
-  body .content .section_1 {
+  body .content main .section_1 {
     display: flex;
   }
-  body .content .section_1 .section_1_block h1 {
+  body .content main .section_1 .section_1_block h1 {
     font-size: 32px;
     font-weight: 500;
   }
-  body .content .section_1 .section_1_block p {
+  body .content main .section_1 .section_1_block p {
     font-size: 16px;
   }
-  body .content .section_1 .section_1_block form {
+  body .content main .section_1 .section_1_block form {
     margin-top: 30px;
     width: 436px;
   }
-  body .content .section_1 .section_1_block .section_1_container {
+  body .content main .section_1 .section_1_block .section_1_container {
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
     margin-top: 20px;
   }
-  body .content .section_1 .section_1_block .section_1_container p {
+  body .content main .section_1 .section_1_block .section_1_container p {
     grid-column: 1/5;
   }
-  body .content .section_1 img {
+  body .content main .section_1 img {
     width: 436px;
     max-width: 100%;
   }
-  body .content .section_2 .section_2_block h2 {
+  body .content main .section_2 .section_2_block h2 {
     font-size: 32px;
   }
-  body .content .section_2 .section_2_block .section_2_p {
+  body .content main .section_2 .section_2_block .section_2_p {
     font-size: 16px;
   }
-  body .content .section_3 .section_3_block h2 {
+  body .content main .section_3 .section_3_block h2 {
     font-size: 32px;
   }
-  body .content .section_3 .section_3_block p {
+  body .content main .section_3 .section_3_block p {
     font-size: 16px;
   }
-  body .content .section_4 h2 {
+  body .content main .section_4 h2 {
     font-size: 32px;
+  }
+  body .content main .section_4 ul li {
+    margin-right: 10px;
+  }
+  body .content main .section_4 ul li:last-child {
+    margin-right: 0;
+  }
+  body .content main .section_4 ul li a {
+    font-size: 14px;
+    text-align: center;
   }
 }/*# sourceMappingURL=styles.css.map */
