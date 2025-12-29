@@ -155,5 +155,22 @@
         }
       }
     }
+    footer {
+      .footer_container {
+        .footer_product {
+          h4 {
+            font-size: 22px;
+          }
+          a {
+            font-size: 14px;
+          }
+        }
+      }
+      .footer_socials_policy {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
   }
 }

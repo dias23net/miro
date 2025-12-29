@@ -617,4 +617,13 @@ body footer .footer_downloads a:first-child {
   body .content main .section_7 .section_7_container .section_7_users p {
     font-size: 12px;
   }
+  body .content footer .footer_container .footer_product h4 {
+    font-size: 22px;
+  }
+  body .content footer .footer_container .footer_product a {
+    font-size: 14px;
+  }
+  body .content footer .footer_socials_policy a {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=styles.css.map */
