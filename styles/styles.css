@@ -614,4 +614,7 @@ body footer .footer_downloads a:first-child {
   body .content main .section_7 .section_7_container .section_7_container_header p {
     font-size: 16px;
   }
+  body .content main .section_7 .section_7_container .section_7_users p {
+    font-size: 12px;
+  }
 }/*# sourceMappingURL=styles.css.map */
