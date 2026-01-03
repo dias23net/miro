@@ -626,4 +626,10 @@ body footer .footer_downloads a:first-child {
   body .content footer .footer_socials_policy a {
     font-size: 14px;
   }
+}
+@media (max-width: 768px) {
+  body .content header {
+    max-width: 768px;
+    padding: 0 20px;
+  }
 }/*# sourceMappingURL=styles.css.map */
