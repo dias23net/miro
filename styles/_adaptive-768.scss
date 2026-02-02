@@ -35,6 +35,15 @@
           display: none;
         }
       }
+      .section_4 {
+        .section_4_ul {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 12px;
+          max-width: 100%;
+        }
+      }
     }
   }
 }

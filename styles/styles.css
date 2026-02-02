@@ -658,4 +658,11 @@ body footer .footer_downloads a:first-child {
   body .content main .section_1 img {
     display: none;
   }
+  body .content main .section_4 .section_4_ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
