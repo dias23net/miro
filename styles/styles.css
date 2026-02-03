@@ -668,4 +668,10 @@ body footer .footer_downloads a:first-child {
     gap: 12px;
     max-width: 100%;
   }
+  body .content main .section_5 .section_5_ul1 {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */

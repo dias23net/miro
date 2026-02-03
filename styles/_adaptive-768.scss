@@ -36,7 +36,7 @@
         }
       }
       .section_4 {
-        h2{
+        h2 {
           text-align: center;
         }
         .section_4_ul {
@@ -44,6 +44,14 @@
           flex-wrap: wrap;
           justify-content: center;
           gap: 12px;
+          max-width: 100%;
+        }
+      }
+      .section_5 {
+        .section_5_ul1 {
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
           max-width: 100%;
         }
       }
