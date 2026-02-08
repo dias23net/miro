@@ -1,3 +1,8 @@
+:root {
+  --button-color: #4682b4;
+  --button-hover-color: #376388;
+}
+
 // Универсальный селектор
 * {
   box-sizing: border-box;
@@ -11,12 +16,13 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     button {
-      background-color: #3753df;
+      background-color: var(--button-color);
+      transition: 0.5s;
       font-size: 16px;
       border: none;
       color: #fff;
       &:hover {
-        background-color: #0b30e9;
+        background-color: var(--button-hover-color);
       }
     }
     // Навигация
@@ -83,7 +89,7 @@ body {
         gap: 40px;
         padding: 80px 40px;
         a {
-          color: #4262ff;
+          color: var(--button-color);
           text-decoration: none;
           &:hover {
             text-decoration: underline;
@@ -387,7 +393,8 @@ body {
           border-radius: 24px;
           font-size: 18px;
           &:hover {
-            background-color: #4d6bff99;
+            background-color: var(--button-hover-color);
+            color: white;
             text-decoration: none;
           }
         }

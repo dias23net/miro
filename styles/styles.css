@@ -1,3 +1,8 @@
+:root {
+  --button-color: #4682b4;
+  --button-hover-color: #376388;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,13 +17,14 @@ body .content {
   margin: 0 auto;
 }
 body .content button {
-  background-color: #3753df;
+  background-color: var(--button-color);
+  transition: 0.5s;
   font-size: 16px;
   border: none;
   color: #fff;
 }
 body .content button:hover {
-  background-color: #0b30e9;
+  background-color: var(--button-hover-color);
 }
 body .content header {
   height: 90px;
@@ -81,7 +87,7 @@ body .content main section {
   padding: 80px 40px;
 }
 body .content main section a {
-  color: #4262ff;
+  color: var(--button-color);
   text-decoration: none;
 }
 body .content main section a:hover {
@@ -371,7 +377,8 @@ body .content .section_7 .section_7_header a {
   font-size: 18px;
 }
 body .content .section_7 .section_7_header a:hover {
-  background-color: rgba(77, 107, 255, 0.6);
+  background-color: var(--button-hover-color);
+  color: white;
   text-decoration: none;
 }
 body .content .section_7 .section_7_container {
