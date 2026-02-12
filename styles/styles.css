@@ -724,7 +724,7 @@ body footer .footer_downloads a:first-child {
   body .content .section_1 .section_1_block h1 {
     text-align: center;
   }
-  body .content .section_1 .section_1_block form {
+  body .content .section_1 .section_1_block .section_1_form {
     width: 100%;
   }
   body .content .section_2 {
