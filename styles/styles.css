@@ -740,4 +740,15 @@ body footer .footer_downloads a:first-child {
   body .content .section_2 img {
     width: 100%;
   }
+  body .content .section_3 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  body .content .section_3 img {
+    width: 100%;
+  }
+  body .content .section_3 .section_3_block {
+    text-align: center;
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
