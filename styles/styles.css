@@ -694,15 +694,15 @@ body footer .footer_downloads a:first-child {
   }
 }
 @media (max-width: 576px) {
-  body .content header nav .nav_top {
+  body .content main header nav .nav_top {
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
-  body .content header nav .nav_top .burger {
+  body .content main header nav .nav_top .burger {
     background-color: #fff;
   }
-  body .content header nav .nav_top .burger span {
+  body .content main header nav .nav_top .burger span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -712,76 +712,76 @@ body footer .footer_downloads a:first-child {
     background: #050038;
     margin-top: 5px;
   }
-  body .content header nav .nav_top .burger span:first-child {
+  body .content main header nav .nav_top .burger span:first-child {
     margin-top: 0;
   }
-  body .content header nav .nav_block_1 {
+  body .content main header nav .nav_block_1 {
     display: none;
   }
-  body .content header nav .nav_block_2 {
+  body .content main header nav .nav_block_2 {
     display: none;
   }
-  body .content .section_1 .section_1_block h1 {
+  body .content main .section_1 .section_1_block h1 {
     text-align: center;
   }
-  body .content .section_1 .section_1_block .section_1_form {
+  body .content main .section_1 .section_1_block .section_1_form {
     width: 100%;
   }
-  body .content .section_1 .section_1_block .section_1_p_1 {
+  body .content main .section_1 .section_1_block .section_1_p_1 {
     text-align: center;
   }
-  body .content .section_2 {
+  body .content main .section_2 {
     display: flex;
     flex-direction: column;
   }
-  body .content .section_2 .section_2_block {
+  body .content main .section_2 .section_2_block {
     text-align: center;
   }
-  body .content .section_2 img {
+  body .content main .section_2 img {
     width: 100%;
   }
-  body .content .section_3 {
+  body .content main .section_3 {
     display: flex;
     flex-direction: column-reverse;
   }
-  body .content .section_3 img {
+  body .content main .section_3 img {
     width: 100%;
   }
-  body .content .section_3 .section_3_block {
+  body .content main .section_3 .section_3_block {
     text-align: center;
     width: 100%;
   }
-  body .content .section_4 {
+  body .content main .section_4 {
     text-align: center;
   }
-  body .content .section_4 .section_4_block {
+  body .content main .section_4 .section_4_block {
     display: flex;
     flex-direction: column;
   }
-  body .content .section_4 .section_4_block img {
+  body .content main .section_4 .section_4_block img {
     width: 100%;
   }
-  body .content .section_5 {
+  body .content main .section_5 {
     text-align: center;
   }
-  body .content .section_5 .section_5_block {
+  body .content main .section_5 .section_5_block {
     display: flex;
     flex-direction: column;
   }
-  body .content .section_5 .section_5_block img {
+  body .content main .section_5 .section_5_block img {
     width: 100%;
     margin-top: 50px;
   }
-  body .content .section_5 .section_5_block .section_5_item .section_5_wrapper {
+  body .content main .section_5 .section_5_block .section_5_item .section_5_wrapper {
     justify-content: center;
   }
-  body .content .section_6 {
+  body .content main .section_6 {
     display: flex;
     justify-content: center;
     flex-direction: column;
   }
-  body .content .section_6 .section_6_header h2 {
-    font-size: 24px;
+  body .content main .section_6 .section_6_header h2 {
+    font-size: 36px;
     width: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */

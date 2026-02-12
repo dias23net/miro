@@ -1,104 +1,106 @@
 @media (max-width: 576px) {
   .content {
-    header {
-      nav {
-        .nav_top {
-          display: flex;
-          justify-content: space-between;
-          width: 100%;
-          .burger {
-            background-color: #fff;
-            span {
-              display: flex;
-              flex-direction: column;
-              justify-content: space-between;
-              height: 3px;
-              width: 40px;
-              border-radius: 2px;
-              background: #050038;
-              margin-top: 5px;
-              &:first-child {
-                margin-top: 0;
+    main {
+      header {
+        nav {
+          .nav_top {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            .burger {
+              background-color: #fff;
+              span {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 3px;
+                width: 40px;
+                border-radius: 2px;
+                background: #050038;
+                margin-top: 5px;
+                &:first-child {
+                  margin-top: 0;
+                }
               }
             }
           }
-        }
-        .nav_block_1 {
-          display: none;
-        }
-        .nav_block_2 {
-          display: none;
-        }
-      }
-    }
-    .section_1 {
-      .section_1_block {
-        h1 {
-          text-align: center;
-        }
-        .section_1_form {
-          width: 100%;
-        }
-        .section_1_p_1 {
-          text-align: center;
-        }
-      }
-    }
-    .section_2 {
-      display: flex;
-      flex-direction: column;
-      .section_2_block {
-        text-align: center;
-      }
-      img {
-        width: 100%;
-      }
-    }
-    .section_3 {
-      display: flex;
-      flex-direction: column-reverse;
-      img {
-        width: 100%;
-      }
-      .section_3_block {
-        text-align: center;
-        width: 100%;
-      }
-    }
-    .section_4 {
-      text-align: center;
-      .section_4_block {
-        display: flex;
-        flex-direction: column;
-        img {
-          width: 100%;
-        }
-      }
-    }
-    .section_5 {
-      text-align: center;
-      .section_5_block {
-        display: flex;
-        flex-direction: column;
-        img {
-          width: 100%;
-          margin-top: 50px;
-        }
-        .section_5_item {
-          .section_5_wrapper {
-            justify-content: center;
+          .nav_block_1 {
+            display: none;
+          }
+          .nav_block_2 {
+            display: none;
           }
         }
       }
-    }
-    .section_6 {
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      .section_6_header {
-        h2 {
-          font-size: 24px;
+      .section_1 {
+        .section_1_block {
+          h1 {
+            text-align: center;
+          }
+          .section_1_form {
+            width: 100%;
+          }
+          .section_1_p_1 {
+            text-align: center;
+          }
+        }
+      }
+      .section_2 {
+        display: flex;
+        flex-direction: column;
+        .section_2_block {
+          text-align: center;
+        }
+        img {
           width: 100%;
+        }
+      }
+      .section_3 {
+        display: flex;
+        flex-direction: column-reverse;
+        img {
+          width: 100%;
+        }
+        .section_3_block {
+          text-align: center;
+          width: 100%;
+        }
+      }
+      .section_4 {
+        text-align: center;
+        .section_4_block {
+          display: flex;
+          flex-direction: column;
+          img {
+            width: 100%;
+          }
+        }
+      }
+      .section_5 {
+        text-align: center;
+        .section_5_block {
+          display: flex;
+          flex-direction: column;
+          img {
+            width: 100%;
+            margin-top: 50px;
+          }
+          .section_5_item {
+            .section_5_wrapper {
+              justify-content: center;
+            }
+          }
+        }
+      }
+      .section_6 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .section_6_header {
+          h2 {
+            font-size: 36px;
+            width: 100%;
+          }
         }
       }
     }
