@@ -33,6 +33,13 @@ body {
       nav {
         display: flex;
         justify-content: space-between;
+        .nav_top {
+          display: flex;
+          align-items: center;
+          .logo {
+            display: flex;
+          }
+        }
         .nav_block_1 {
           display: flex;
           align-items: center;
@@ -540,7 +547,7 @@ body {
       }
     }
   }
-  @import "./_adaptive-992";
-  @import "./_adaptive-768";
-  @import "./_adaptive-576";
+  @import "./adaptive-992";
+  @import "./adaptive-768";
+  @import "./adaptive-576";
 }
