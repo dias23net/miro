@@ -751,4 +751,37 @@ body footer .footer_downloads a:first-child {
     text-align: center;
     width: 100%;
   }
+  body .content .section_4 {
+    text-align: center;
+  }
+  body .content .section_4 .section_4_block {
+    display: flex;
+    flex-direction: column;
+  }
+  body .content .section_4 .section_4_block img {
+    width: 100%;
+  }
+  body .content .section_5 {
+    text-align: center;
+  }
+  body .content .section_5 .section_5_block {
+    display: flex;
+    flex-direction: column;
+  }
+  body .content .section_5 .section_5_block img {
+    width: 100%;
+    margin-top: 50px;
+  }
+  body .content .section_5 .section_5_block .section_5_item .section_5_wrapper {
+    justify-content: center;
+  }
+  body .content .section_6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  body .content .section_6 .section_6_header h2 {
+    font-size: 36px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
