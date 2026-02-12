@@ -716,7 +716,7 @@ body .content header nav .nav_top .burger span {
   height: 3px;
   width: 40px;
   border-radius: 2px;
-  background: black;
+  background: #050038;
   margin-top: 5px;
 }
 body .content header nav .nav_top .burger span:first-child {
