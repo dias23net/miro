@@ -1,0 +1,32 @@
+.content {
+  header {
+    nav {
+      .nav_top {
+        width: 100%;
+        justify-content: space-between;
+        .burger {
+          background-color: #fff;
+          span {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 3px;
+            width: 40px;
+            border-radius: 2px;
+            background: black;
+            margin-top: 5px;
+            &:first-child {
+              margin-top: 0;
+            }
+          }
+        }
+      }
+      .nav_block_1 {
+        display: none;
+      }
+      .nav_block_2 {
+        display: none;
+      }
+    }
+  }
+}
