@@ -721,4 +721,7 @@ body footer .footer_downloads a:first-child {
   body .content header nav .nav_block_2 {
     display: none;
   }
+  body .content .section_1 .section_1_block h1 {
+    text-align: center;
+  }
 }/*# sourceMappingURL=styles.css.map */
