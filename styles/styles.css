@@ -724,4 +724,17 @@ body footer .footer_downloads a:first-child {
   body .content .section_1 .section_1_block h1 {
     text-align: center;
   }
+  body .content .section_1 .section_1_block form {
+    width: 100%;
+  }
+  body .content .section_2 {
+    display: flex;
+    flex-direction: column;
+  }
+  body .content .section_2 .section_2_block {
+    text-align: center;
+  }
+  body .content .section_2 img {
+    width: 100%;
+  }
 }/*# sourceMappingURL=styles.css.map */
