@@ -1,176 +1,158 @@
 @media (max-width: 992px) {
-  .content {
-    header {
-      max-width: 992px;
-      padding: 0 20px;
-      nav {
-        .nav_block_1 {
-          ul {
-            li {
-              margin-left: 24px;
-            }
-          }
-        }
-        .nav_block_2 {
-          a {
-            font-size: 14px;
-          }
-          button {
-            margin-left: 40px;
-            width: 135px;
-            height: 45px;
-            font-size: 16px;
-          }
-        }
+  header {
+    max-width: 992px;
+    padding: 0 20px;
+  }
+  .nav_block_1 {
+    ul {
+      li {
+        margin-left: 24px;
       }
     }
-    main {
-      // Секция 1
-      .section_1 {
-        display: flex;
-        .section_1_block {
-          h1 {
-            font-size: 32px;
-            font-weight: 500;
-          }
-          p {
-            font-size: 16px;
-          }
-          form {
-            margin-top: 30px;
-            width: 436px;
-          }
-          .section_1_container {
-            display: grid;
-            grid-template-rows: repeat(2, 1fr);
-            grid-template-columns: repeat(4, 1fr);
-            margin-top: 20px;
-            p {
-              grid-column: 1 / 5;
-            }
-          }
-        }
-        img {
-          width: 436px;
-          max-width: 100%;
-        }
-      }
-      // Секция 2
-      .section_2 {
-        .section_2_block {
-          h2 {
-            font-size: 32px;
-          }
-          .section_2_p {
-            font-size: 16px;
-          }
-        }
-      }
-      .section_3 {
-        .section_3_block {
-          h2 {
-            font-size: 32px;
-          }
-          p {
-            font-size: 16px;
-          }
-        }
-      }
-      .section_4 {
-        h2 {
-          font-size: 32px;
-        }
-        ul {
-          li {
-            margin-right: 10px;
-            &:last-child {
-              margin-right: 0;
-            }
-            a {
-              font-size: 14px;
-              text-align: center;
-            }
-          }
-        }
-      }
-      .section_5 {
-        ul {
-          li {
-            margin-right: 10px;
-            &:last-child {
-              margin-right: 0;
-            }
-            a {
-              font-size: 14px;
-              text-align: center;
-            }
-          }
-        }
-        .section_5_block {
-          .section_5_item {
-            .section_5_ul2 {
-              .section_5_li2 {
-                font-size: 16px;
-                margin-bottom: 0px;
-              }
-            }
-            .section_5_p {
-              font-size: 16px;
-            }
-          }
-        }
-      }
-      .section_6 {
-        .section_6_header {
-          h2 {
-            font-size: 46px;
-          }
-        }
-        .section_6_item {
-          p {
-            font-size: 16px;
-          }
-        }
-      }
-      .section_7 {
-        gap: 50px 18px;
-        h2 {
-          font-size: 46px;
-        }
-        p {
-          font-size: 16px;
-          text-align: justify;
-        }
-        .section_7_container {
-          .section_7_container_header {
-            p {
-              font-size: 16px;
-            }
-          }
-          .section_7_users {
-            p {
-              font-size: 12px;
-            }
-          }
-        }
-      }
+  }
+  .nav_block_2 {
+    a {
+      font-size: 14px;
     }
-    footer {
-      .footer_container {
-        .footer_product {
-          h4 {
-            font-size: 22px;
-          }
-          a {
-            font-size: 14px;
-          }
+    button {
+      margin-left: 40px;
+      width: 135px;
+      height: 45px;
+      font-size: 16px;
+    }
+  }
+  // Секция 1
+  .section_1 {
+    display: flex;
+    img {
+      width: 436px;
+      max-width: 100%;
+    }
+  }
+  .section_1_block {
+    h1 {
+      font-size: 32px;
+      font-weight: 500;
+    }
+    p {
+      font-size: 16px;
+    }
+    form {
+      margin-top: 30px;
+      width: 436px;
+    }
+  }
+  .section_1_container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    p {
+      grid-column: 1 / 5;
+    }
+  }
+  // Секция 2
+  .section_2_block {
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .section_3_block {
+    h2 {
+      font-size: 32px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .section_4 {
+    h2 {
+      font-size: 32px;
+    }
+  }
+  .section_4 {
+    ul {
+      li {
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
         }
-      }
-      .footer_socials_policy {
         a {
           font-size: 14px;
+          text-align: center;
         }
       }
+    }
+  }
+  .section_5 {
+    ul {
+      li {
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+        a {
+          font-size: 14px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .section_5_item {
+    ul {
+      li {
+        font-size: 16px;
+        margin-bottom: 0px;
+      }
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+  .section_6_header {
+    h2 {
+      font-size: 46px;
+    }
+  }
+  .section_6_item {
+    p {
+      font-size: 16px;
+    }
+  }
+  .section_7 {
+    gap: 50px 18px;
+    h2 {
+      font-size: 46px;
+    }
+    p {
+      font-size: 16px;
+      text-align: justify;
+    }
+  }
+  .section_7_container_header {
+    p {
+      font-size: 16px;
+    }
+  }
+  .section_7_users {
+    p {
+      font-size: 12px;
+    }
+  }
+  .footer_product {
+    h4 {
+      font-size: 22px;
+    }
+    a {
+      font-size: 14px;
+    }
+  }
+  .footer_socials_policy {
+    a {
+      font-size: 14px;
     }
   }
 }
