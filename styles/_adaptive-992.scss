@@ -44,9 +44,6 @@
   }
   .section_1_container {
     display: grid;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: 20px;
     p {
       grid-column: 1 / 5;
     }
