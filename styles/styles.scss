@@ -8,6 +8,7 @@
 .content {
   max-width: 1200px;
   margin: 0 auto;
+  padding: 0 20px;
 }
 button {
   background-color: #4f42df;
@@ -30,7 +31,8 @@ nav {
   justify-content: space-between;
 }
 .nav_top {
-  display: none;
+  display: flex;
+  align-items: center;
 }
 .logo {
   display: flex;
@@ -86,15 +88,19 @@ nav {
 .section_1 {
   display: flex;
   flex-direction: row;
+  gap: 50px;
+  margin-top: 150px;
   p {
+    display: flex;
+    justify-content: center;
     font-size: 14px;
     margin-top: 20px;
   }
   img {
     object-fit: contain;
     width: 50%;
-    height: auto;
     max-width: 100%;
+    height: auto;
     display: block;
   }
 }
@@ -103,6 +109,7 @@ nav {
 }
 form {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin-top: 30px;
   gap: 20px;
@@ -126,10 +133,11 @@ form {
 }
 .section_1_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 52px;
   p {
+    margin-top: 0;
     color: #5f5f5f;
     data {
       color: #5f5f5f;
@@ -144,11 +152,12 @@ form {
 }
 // 2 секция
 .section_2 {
+  margin-top: 150px;
   img {
+    display: block;
     width: 50%;
     height: auto;
     max-width: 100%;
-    display: block;
   }
 }
 .section_2_block {
@@ -156,6 +165,13 @@ form {
   align-self: center;
   p {
     margin: 19px 0 39px 0;
+    a {
+      text-decoration: none;
+      color: #4f42df;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 // 3 секция
