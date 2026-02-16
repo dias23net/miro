@@ -24,7 +24,6 @@ button:hover {
 
 header {
   height: 90px;
-  padding: 0 20px;
   align-content: center;
 }
 
@@ -35,15 +34,19 @@ nav {
 .nav_top {
   display: flex;
   align-items: center;
+  width: 100%;
+  background-color: #f2f2f2;
+  border-radius: 30px;
 }
 
 .logo {
-  display: flex;
+  margin-left: 20px;
 }
 
 .nav_block_1 {
   display: flex;
   align-items: center;
+  justify-content: flex-end;
   width: 100%;
   margin-left: 20px;
 }
@@ -89,37 +92,35 @@ nav {
 
 .section_1 {
   display: flex;
-  gap: 50px;
+  gap: 40px;
   margin-top: 150px;
 }
 .section_1 p {
   font-size: 18px;
 }
-.section_1 img {
-  display: block;
-  width: 50%;
-  height: auto;
-  max-width: 100%;
-}
-
-.section_1_block {
+.section_1 .section_1_block {
   display: flex;
   flex-direction: column;
 }
-.section_1_block h1 {
+.section_1 .section_1_block h1 {
   font-size: 48px;
   font-weight: normal;
 }
-.section_1_block p {
+.section_1 .section_1_block p {
   color: #5f5f5f;
   margin-top: 20px;
 }
+.section_1 .card1 {
+  display: flex;
+  border-radius: 30px;
+}
+.section_1 .card1 img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
 
 form {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
-  gap: 20px;
 }
 form input {
   width: 100%;
@@ -137,6 +138,7 @@ form button {
   width: 100%;
   height: 50px;
   border-radius: 30px;
+  margin-top: 20px;
 }
 
 .section_1_container {
@@ -162,6 +164,8 @@ form button {
 }
 
 .section_2 {
+  display: flex;
+  gap: 50px;
   margin-top: 150px;
 }
 .section_2 img {
@@ -187,6 +191,8 @@ form button {
 }
 
 .section_3 {
+  display: flex;
+  gap: 50px;
   align-items: center;
 }
 .section_3 img {
@@ -551,271 +557,11 @@ hr {
   margin-left: 0;
 }
 
-@media (max-width: 576px) {
-  .nav_top {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  .burger {
-    background-color: #fff;
-  }
-  .burger span {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 3px;
-    width: 40px;
-    border-radius: 2px;
-    background: #050038;
-    margin-top: 5px;
-  }
-  .burger span:first-child {
-    margin-top: 0;
-  }
-  .nav_block_1 ul {
-    display: none;
-  }
-  .nav_block_2 {
-    display: none;
-  }
-  .section_1 {
-    flex-direction: column;
-  }
-  .section_1 .img_sec1 {
-    width: 100%;
-  }
-  .section_1_block h1 {
-    text-align: center;
-  }
-  .section_1_block form {
-    width: 100%;
-  }
-  .section_1_block p {
-    text-align: center;
-  }
-  .section_1_container {
-    display: flex;
-    flex-direction: column;
-  }
-  .section_2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .section_2 img {
-    width: 100%;
-  }
-  .section_2_block {
-    text-align: center;
-  }
-  .section_3 {
-    display: flex;
-    flex-direction: column-reverse;
-  }
-  .section_3 img {
-    width: 100%;
-  }
-  .section_3_block {
-    text-align: center;
-    width: 100%;
-  }
-  .section_4 {
-    text-align: center;
-  }
-  .section_4_block {
-    display: flex;
-    flex-direction: column;
-  }
-  .section_4_block img {
-    width: 100%;
-  }
-  .section_5 {
-    text-align: center;
-  }
-  .section_5_block {
-    display: flex;
-    flex-direction: column;
-  }
-  .section_5_block img {
-    width: 100%;
-    margin-top: 50px;
-  }
-  .section_5_wrapper {
-    justify-content: center;
-  }
-  .section_6 {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-  }
-  .section_6_header h2 {
-    font-size: 36px;
-    width: 100%;
-  }
-  .section_8_h2 {
-    font-size: 28px;
-  }
-}
-@media (max-width: 768px) {
-  header {
-    max-width: 768px;
-    padding: 0 20px;
-  }
-  .section_1 img {
-    display: none;
-  }
-  .section_1_block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .section_1_block p {
-    text-align: center;
-  }
-  .section_4 h2 {
-    text-align: center;
-  }
-  .section_4 ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 12px;
-    max-width: 100%;
-  }
-  .section_5 ul {
-    flex-wrap: wrap;
-    gap: 10px;
-    justify-content: center;
-    max-width: 100%;
-  }
-  .section_7 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .section_7_header h2 {
-    font-size: 36px;
-    text-align: center;
-  }
-  .section_8 h2 {
-    font-size: 42px;
-  }
-  .footer_product a {
-    line-height: 20px;
-  }
-}
 @media (max-width: 992px) {
-  header {
-    max-width: 992px;
-    padding: 0 20px;
-  }
-  .nav_block_1 ul li {
-    margin-left: 24px;
-  }
-  .nav_block_2 a {
-    font-size: 14px;
-  }
-  .nav_block_2 button {
-    margin-left: 40px;
-    width: 135px;
-    height: 45px;
-    font-size: 16px;
-  }
-  .section_1 {
-    display: flex;
-  }
-  .section_1 img {
-    width: 436px;
-    max-width: 100%;
-  }
   .section_1_block h1 {
     font-size: 32px;
-    font-weight: 500;
   }
   .section_1_block p {
     font-size: 16px;
-  }
-  .section_1_block form {
-    margin-top: 30px;
-    width: 436px;
-  }
-  .section_1_container {
-    display: grid;
-  }
-  .section_1_container p {
-    grid-column: 1/5;
-  }
-  .section_2_block h2 {
-    font-size: 32px;
-  }
-  .section_2_block p {
-    font-size: 16px;
-  }
-  .section_3_block h2 {
-    font-size: 32px;
-  }
-  .section_3_block p {
-    font-size: 16px;
-  }
-  .section_4 h2 {
-    font-size: 32px;
-  }
-  .section_4 ul li {
-    margin-right: 10px;
-  }
-  .section_4 ul li:last-child {
-    margin-right: 0;
-  }
-  .section_4 ul li a {
-    font-size: 14px;
-    text-align: center;
-  }
-  .section_5 ul li {
-    margin-right: 10px;
-  }
-  .section_5 ul li:last-child {
-    margin-right: 0;
-  }
-  .section_5 ul li a {
-    font-size: 14px;
-    text-align: center;
-  }
-  .section_5_item ul li {
-    font-size: 16px;
-    margin-bottom: 0px;
-  }
-  .section_5_item p {
-    font-size: 16px;
-  }
-  .section_6_header h2 {
-    font-size: 46px;
-  }
-  .section_6_item p {
-    font-size: 16px;
-  }
-  .section_7 {
-    gap: 50px 18px;
-  }
-  .section_7 h2 {
-    font-size: 46px;
-  }
-  .section_7 p {
-    font-size: 16px;
-    text-align: justify;
-  }
-  .section_7_container_header p {
-    font-size: 16px;
-  }
-  .section_7_users p {
-    font-size: 12px;
-  }
-  .footer_product h4 {
-    font-size: 22px;
-  }
-  .footer_product a {
-    font-size: 14px;
-  }
-  .footer_socials_policy a {
-    font-size: 14px;
   }
 }/*# sourceMappingURL=styles.css.map */
