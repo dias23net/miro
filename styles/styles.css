@@ -93,7 +93,7 @@ nav {
 .section_1 {
   display: flex;
   gap: 50px;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .section_1 p {
   font-size: 18px;
@@ -174,7 +174,7 @@ form button {
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
-  margin-top: 150px;
+  margin-top: 200px;
 }
 .section_2 .card2 {
   display: flex;
@@ -202,6 +202,7 @@ form button {
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
+  color: #5f5f5f;
 }
 .section_2_block p a {
   text-decoration: none;
@@ -213,21 +214,39 @@ form button {
 
 .section_3 {
   display: flex;
+  flex-direction: row-reverse;
   gap: 50px;
   align-items: center;
+  margin-top: 200px;
 }
 .section_3 img {
+  display: flex;
+  flex: 1;
   width: 50%;
-  height: auto;
-  max-width: 100%;
-  display: block;
+  width: 100%;
 }
 
 .section_3_block {
-  width: 440px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.section_3_block h2 {
+  font-size: 48px;
+  font-weight: normal;
 }
 .section_3_block p {
-  margin: 19px 0 39px 0;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
+  color: #5f5f5f;
+}
+.section_3_block p a {
+  text-decoration: none;
+  color: #4f42df;
+}
+.section_3_block p a:hover {
+  text-decoration: underline;
 }
 
 .section_4 {
