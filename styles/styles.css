@@ -36,7 +36,7 @@ nav {
   align-items: center;
   width: 100%;
   background-color: #f2f2f2;
-  border-radius: 30px;
+  border-radius: 25px;
 }
 
 .logo {
@@ -87,12 +87,12 @@ nav {
 .nav_block_2 button {
   width: 157px;
   height: 50px;
-  border-radius: 24px;
+  border-radius: 25px;
 }
 
 .section_1 {
   display: flex;
-  gap: 40px;
+  gap: 50px;
   margin-top: 150px;
 }
 .section_1 p {
@@ -114,6 +114,8 @@ nav {
 .section_1 .card1 {
   display: flex;
   flex: 1;
+  border-radius: 25px;
+  overflow: hidden;
 }
 .section_1 .card1 img {
   -o-object-fit: cover;
@@ -129,7 +131,7 @@ form {
 form input {
   width: 100%;
   height: 50px;
-  border-radius: 30px;
+  border-radius: 25px;
   padding: 0 20px;
   border: 2px solid #d8d8d8;
   font-size: 16px;
@@ -141,7 +143,7 @@ form input:focus {
 form button {
   width: 100%;
   height: 50px;
-  border-radius: 30px;
+  border-radius: 25px;
   margin-top: 20px;
 }
 
@@ -170,22 +172,36 @@ form button {
 
 .section_2 {
   display: flex;
+  flex-direction: row-reverse;
   gap: 50px;
   margin-top: 150px;
 }
-.section_2 img {
-  display: block;
-  width: 50%;
-  height: auto;
-  max-width: 100%;
+.section_2 .card2 {
+  display: flex;
+  flex: 1;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.section_2 .card2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
 }
 
 .section_2_block {
-  width: 100%;
-  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.section_2_block h2 {
+  font-size: 48px;
+  font-weight: normal;
 }
 .section_2_block p {
-  margin: 19px 0 39px 0;
+  font-size: 18px;
+  font-weight: normal;
+  margin-top: 20px;
 }
 .section_2_block p a {
   text-decoration: none;
@@ -234,7 +250,7 @@ form button {
   display: flex;
   align-items: center;
   border: 1px solid #f2f2f2;
-  border-radius: 24px;
+  border-radius: 25px;
   padding: 0 18px;
   height: 48px;
   color: #050038;
@@ -289,7 +305,7 @@ form button {
   display: flex;
   align-items: center;
   border: 1px solid #f2f2f2;
-  border-radius: 24px;
+  border-radius: 25px;
   padding: 0 18px;
   height: 48px;
   margin-left: 8px;
@@ -362,7 +378,7 @@ form button {
        column-gap: 40px;
   padding: 100px 40px;
   background: #ffd02f;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .section_6_header {
@@ -405,7 +421,7 @@ form button {
   align-content: center;
   margin-top: 70px;
   border: 1px solid;
-  border-radius: 24px;
+  border-radius: 25px;
   font-size: 18px;
 }
 .section_7_header a:hover {
@@ -448,7 +464,7 @@ form button {
   justify-content: center;
   background-color: #050038;
   margin: 120px 40px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .section_8_container {
@@ -480,14 +496,14 @@ form button {
 .section_8_container button {
   width: 250px;
   height: 48px;
-  border-radius: 32px;
+  border-radius: 25px;
   margin-top: 20px;
 }
 
 footer {
   padding: 40px 40px 20px;
   background-color: #050038;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 footer a {
   text-decoration: none;
