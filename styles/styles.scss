@@ -108,6 +108,9 @@ nav {
     border-radius: 30px;
     img {
       object-fit: contain;
+      display: block; // убирает нижний “зазор” у img (baseline — базовая линия текста)
+      width: 100%;
+      height: auto;
     }
   }
 }
