@@ -94,6 +94,7 @@ nav {
   .section_1_block {
     display: flex;
     flex-direction: column;
+    flex: 1;
     h1 {
       font-size: 48px;
       font-weight: normal;
@@ -105,12 +106,10 @@ nav {
   }
   .card1 {
     display: flex;
-    border-radius: 30px;
+    flex: 1;
     img {
       object-fit: contain;
-      display: block; // убирает нижний “зазор” у img (baseline — базовая линия текста)
       width: 100%;
-      height: auto;
     }
   }
 }

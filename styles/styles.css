@@ -101,6 +101,7 @@ nav {
 .section_1 .section_1_block {
   display: flex;
   flex-direction: column;
+  flex: 1;
 }
 .section_1 .section_1_block h1 {
   font-size: 48px;
@@ -112,14 +113,12 @@ nav {
 }
 .section_1 .card1 {
   display: flex;
-  border-radius: 30px;
+  flex: 1;
 }
 .section_1 .card1 img {
   -o-object-fit: contain;
      object-fit: contain;
-  display: block;
   width: 100%;
-  height: auto;
 }
 
 form {
