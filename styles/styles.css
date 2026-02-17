@@ -595,9 +595,13 @@ footer {
 }
 footer a {
   text-decoration: none;
+  font-size: 18px;
+  line-height: 24px;
+  color: #696688;
 }
 footer a:hover {
   text-decoration: underline;
+  color: #ccc;
 }
 
 .footer_container {
@@ -618,14 +622,6 @@ footer a:hover {
   font-size: 24px;
   margin-bottom: 40px;
   color: #fff;
-}
-.footer_product a {
-  font-size: 16px;
-  line-height: 24px;
-  color: #696688;
-}
-.footer_product a:hover {
-  color: #ccc;
 }
 
 hr {
@@ -659,11 +655,10 @@ hr {
   margin-top: 20px;
 }
 .footer_downloads a {
-  text-decoration: none;
-  margin-left: 15px;
+  display: inline-block;
 }
-.footer_downloads a:first-child {
-  margin-left: 0;
+.footer_downloads a:hover {
+  text-decoration: none;
 }
 
 @media (max-width: 992px) {

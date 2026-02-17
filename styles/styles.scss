@@ -571,8 +571,12 @@ footer {
   margin-top: 200px;
   a {
     text-decoration: none;
+    font-size: 18px;
+    line-height: 24px;
+    color: #696688;
     &:hover {
       text-decoration: underline;
+      color: #ccc;
     }
   }
 }
@@ -591,14 +595,6 @@ footer {
     font-size: 24px;
     margin-bottom: 40px;
     color: #fff;
-  }
-  a {
-    font-size: 16px;
-    line-height: 24px;
-    color: #696688;
-    &:hover {
-      color: #ccc;
-    }
   }
 }
 hr {
@@ -628,10 +624,9 @@ hr {
 .footer_downloads {
   margin-top: 20px;
   a {
-    text-decoration: none;
-    margin-left: 15px;
-    &:first-child {
-      margin-left: 0;
+    display: inline-block;
+    &:hover {
+      text-decoration: none;
     }
   }
 }
