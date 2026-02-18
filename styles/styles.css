@@ -118,8 +118,6 @@ nav {
 .section_1 .card1 img {
   -o-object-fit: cover;
      object-fit: cover;
-  -o-object-position: center right;
-     object-position: center right;
   width: 100%;
 }
 
@@ -222,7 +220,6 @@ form button {
   display: flex;
   flex-direction: row-reverse;
   gap: 50px;
-  align-items: center;
   margin-top: 200px;
 }
 .section_3 .card3 {
@@ -299,7 +296,6 @@ form button {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 40px;
-  align-items: center;
   gap: 50px;
 }
 .section_4_block .card4 {
