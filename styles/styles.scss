@@ -386,7 +386,7 @@ form {
   a {
     font-size: 18px;
     text-decoration: none;
-    color: #4f42df;
+    color: #4682b4;
     &:hover {
       text-decoration: underline;
     }
@@ -445,7 +445,12 @@ form {
   a {
     display: block;
     margin-top: 20px;
+    font-size: 18px;
+    text-decoration: none;
     color: #050038;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
 .section_6_item {

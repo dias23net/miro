@@ -405,7 +405,7 @@ form button {
 .section_5_item a {
   font-size: 18px;
   text-decoration: none;
-  color: #4f42df;
+  color: #4682b4;
 }
 .section_5_item a:hover {
   text-decoration: underline;
@@ -467,7 +467,12 @@ form button {
 .section_6_header a {
   display: block;
   margin-top: 20px;
+  font-size: 18px;
+  text-decoration: none;
   color: #050038;
+}
+.section_6_header a:hover {
+  text-decoration: underline;
 }
 
 .section_6_item img {
