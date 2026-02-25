@@ -36,7 +36,7 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #ffe4c4;
+  background-color: #ecf9ff;
   border-radius: 25px;
 }
 
@@ -97,25 +97,27 @@ nav {
   font-size: 14px;
   font-weight: 600;
 }
-.section_1 .section_1_block {
+
+.section_1_block {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.section_1 .section_1_block h1 {
+.section_1_block h1 {
   font-size: 48px;
   font-weight: normal;
 }
-.section_1 .section_1_block p {
+.section_1_block p {
   color: #5f5f5f;
 }
-.section_1 .card1 {
+
+.card1 {
   display: flex;
   flex: 1;
   border-radius: 25px;
   overflow: hidden;
 }
-.section_1 .card1 img {
+.card1 img {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -129,18 +131,21 @@ form input {
   height: 50px;
   border-radius: 25px;
   padding: 0 20px;
+  font-size: 18px;
   border: 2px solid #4682b4;
-  font-size: 16px;
   color: #4682b4;
 }
 form input:focus {
   outline: none;
 }
 form input:invalid {
-  border-color: red;
+  border: 1px solid red;
 }
-form input:valid {
-  border-color: #4682b4;
+form input::-moz-placeholder {
+  color: rgba(95, 95, 95, 0.4745098039);
+}
+form input::placeholder {
+  color: rgba(95, 95, 95, 0.4745098039);
 }
 form button {
   width: 100%;
@@ -504,6 +509,7 @@ form button {
   border: 1px solid;
   border-radius: 25px;
   border: 2px solid #ffe4c4;
+  color: #050038;
   font-size: 18px;
   text-decoration: none;
   transition: 0.5s;
@@ -662,11 +668,49 @@ hr {
   text-decoration: none;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 768px) {
+  .nav_block_1 {
+    display: none;
+  }
+  .section_1 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section_1 p:nth-of-type(2) {
+    margin-top: 0;
+  }
+  .section_1_block {
+    gap: 20px;
+  }
   .section_1_block h1 {
+    text-align: center;
+    font-size: 42px;
+  }
+  form {
+    margin-top: 0;
+  }
+  form input {
+    font-size: 14px;
+  }
+  .section_1_container {
+    margin-top: 0;
+  }
+  .section_1_container p {
+    font-size: 14px;
+  }
+  .section_2 {
+    margin-top: 20px;
+  }
+  .section_2_block h2 {
     font-size: 32px;
   }
-  .section_1_block p {
-    font-size: 16px;
+  .section_3 {
+    margin-top: 20px;
+  }
+  .section_3_block h2 {
+    font-size: 32px;
+  }
+  .section_5_block {
+    gap: 20px;
   }
 }/*# sourceMappingURL=styles.css.map */

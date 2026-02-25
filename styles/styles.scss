@@ -33,7 +33,7 @@ nav {
   display: flex;
   align-items: center;
   width: 100%;
-  background-color: #ffe4c4;
+  background-color: #ecf9ff;
   border-radius: 25px;
 }
 .logo {
@@ -92,27 +92,27 @@ nav {
       font-weight: 600;
     }
   }
-  .section_1_block {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    h1 {
-      font-size: 48px;
-      font-weight: normal;
-    }
-    p {
-      color: #5f5f5f;
-    }
+}
+.section_1_block {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  h1 {
+    font-size: 48px;
+    font-weight: normal;
   }
-  .card1 {
-    display: flex;
-    flex: 1;
-    border-radius: 25px;
-    overflow: hidden;
-    img {
-      object-fit: cover;
-      width: 100%;
-    }
+  p {
+    color: #5f5f5f;
+  }
+}
+.card1 {
+  display: flex;
+  flex: 1;
+  border-radius: 25px;
+  overflow: hidden;
+  img {
+    object-fit: cover;
+    width: 100%;
   }
 }
 form {
@@ -122,17 +122,17 @@ form {
     height: 50px;
     border-radius: 25px;
     padding: 0 20px;
+    font-size: 18px;
     border: 2px solid #4682b4;
-    font-size: 16px;
     color: #4682b4;
     &:focus {
       outline: none;
     }
     &:invalid {
-      border-color: red;
+      border: 1px solid red;
     }
-    &:valid {
-      border-color: #4682b4;
+    &::placeholder {
+      color: #5f5f5f79;
     }
   }
   button {
@@ -483,6 +483,7 @@ form {
     border: 1px solid;
     border-radius: 25px;
     border: 2px solid #ffe4c4;
+    color: #050038;
     font-size: 18px;
     text-decoration: none;
     transition: 0.5s;
@@ -635,4 +636,3 @@ hr {
 
 @import "./adaptive-576";
 @import "./adaptive-768";
-@import "./adaptive-992";
