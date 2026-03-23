@@ -90,7 +90,7 @@ nav {
   margin-top: 200px;
 }
 .section_1 p {
-  font-size: 18px;
+  font-size: clamp(14px, 2vw, 18px);
   margin-top: 20px;
 }
 .section_1 p:nth-of-type(2) {
@@ -104,7 +104,7 @@ nav {
   flex: 1;
 }
 .section_1_block h1 {
-  font-size: 48px;
+  font-size: clamp(24px, 5vw, 48px);
   font-weight: normal;
 }
 .section_1_block p {
@@ -688,7 +688,6 @@ hr {
   }
   .section_1_block h1 {
     text-align: center;
-    font-size: 42px;
   }
   form {
     margin-top: 0;

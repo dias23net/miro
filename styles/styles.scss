@@ -85,7 +85,8 @@ nav {
   gap: 50px;
   margin-top: 200px;
   p {
-    font-size: 18px;
+    font-size: clamp(14px, 2vw, 18px);
+    // font-size: 18px;
     margin-top: 20px;
     &:nth-of-type(2) {
       font-size: 14px;
@@ -98,7 +99,8 @@ nav {
   flex-direction: column;
   flex: 1;
   h1 {
-    font-size: 48px;
+    font-size: clamp(24px, 5vw, 48px);
+    // font-size: 48px;
     font-weight: normal;
   }
   p {
