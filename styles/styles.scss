@@ -85,8 +85,7 @@ nav {
   gap: 50px;
   margin-top: 200px;
   p {
-    font-size: clamp(14px, 2vw, 18px);
-    // font-size: 18px;
+    font-size: 18px;
     margin-top: 20px;
     &:nth-of-type(2) {
       font-size: 14px;
