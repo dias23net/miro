@@ -722,8 +722,31 @@ hr {
   gap: 40px;
 }
 
+.section_2 {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.section_3 {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.section_4_block {
+  flex-direction: column;
+  margin-top: 40px;
+}
+
 .section_5_wrapper {
   display: none;
+}
+
+.section_5_block {
+  flex-direction: column-reverse;
+  margin-top: 40px;
+}
+.section_5_block img {
+  width: auto;
 }
 
 .item_card {
@@ -733,9 +756,19 @@ hr {
 .section_6 {
   display: block;
   flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .section_6_header h2 {
   font-size: 38px;
+  width: 100%;
+}
+
+.section_6_item {
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 25px;
+  background-color: #fff;
   width: 100%;
 }/*# sourceMappingURL=styles.css.map */
