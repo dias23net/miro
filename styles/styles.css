@@ -420,6 +420,7 @@ form button {
 
 .section_5_wrapper {
   display: flex;
+  flex-flow: wrap;
   gap: 20px;
 }
 .section_5_wrapper a {
@@ -670,6 +671,24 @@ hr {
 }
 .footer_downloads a:hover {
   text-decoration: none;
+}
+
+.section_5_wrapper {
+  display: none;
+}
+
+.item_card {
+  margin-top: 10px;
+}
+
+.section_6 {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.section_6_header h2 {
+  font-size: 38px;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
