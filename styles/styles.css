@@ -727,84 +727,71 @@ hr {
     gap: 20px;
   }
 }
-.section_1 {
-  gap: 40px;
-}
-
-.section_2 {
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-.section_3 {
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-.section_4_block {
-  flex-direction: column;
-  margin-top: 40px;
-}
-
-.section_5_wrapper {
-  display: none;
-}
-
-.section_5_block {
-  flex-direction: column-reverse;
-  margin-top: 40px;
-}
-.section_5_block img {
-  width: auto;
-}
-
-.item_card {
-  margin-top: 10px;
-}
-
-.section_6 {
-  display: block;
-  flex-wrap: wrap;
-  padding-top: 40px;
-  padding-bottom: 40px;
-}
-
-.section_6_header h2 {
-  font-size: 38px;
-  width: 100%;
-}
-
-.section_6_item {
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 25px;
-  background-color: #fff;
-  width: 100%;
-}
-
-.section_8 {
-  padding-left: 25px;
-  padding-right: 25px;
-}
-
-.section_8_container h2 {
-  font-size: 32px;
-}
-
-footer {
-  padding: 40px 40px;
-}
-
-.footer_container {
-  grid-template-columns: repeat(2, 1fr);
-  row-gap: 20px;
-}
-
-.footer_socials_policy {
-  flex-wrap: wrap;
-}
-
-.footer_conf {
-  display: flex;
-  flex-wrap: wrap;
+@media (max-width: 576px) {
+  .section_1 {
+    gap: 40px;
+  }
+  .section_2 {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .section_3 {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .section_4_block {
+    flex-direction: column;
+    margin-top: 40px;
+  }
+  .section_5_wrapper {
+    display: none;
+  }
+  .section_5_block {
+    flex-direction: column-reverse;
+    margin-top: 40px;
+  }
+  .section_5_block img {
+    width: auto;
+  }
+  .item_card {
+    margin-top: 10px;
+  }
+  .section_6 {
+    display: block;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .section_6_header h2 {
+    font-size: 38px;
+    width: 100%;
+  }
+  .section_6_item {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .section_8 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  .section_8_container h2 {
+    font-size: 32px;
+  }
+  footer {
+    padding: 40px 40px;
+  }
+  .footer_container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+  }
+  .footer_socials_policy {
+    flex-wrap: wrap;
+  }
+  .footer_conf {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }/*# sourceMappingURL=styles.css.map */
