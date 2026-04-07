@@ -673,24 +673,6 @@ hr {
   text-decoration: none;
 }
 
-.section_5_wrapper {
-  display: none;
-}
-
-.item_card {
-  margin-top: 10px;
-}
-
-.section_6 {
-  display: block;
-  flex-wrap: wrap;
-}
-
-.section_6_header h2 {
-  font-size: 38px;
-  width: 100%;
-}
-
 @media (max-width: 768px) {
   .nav_block_1 {
     display: none;
@@ -735,4 +717,25 @@ hr {
   .section_5_block {
     gap: 20px;
   }
+}
+.section_1 {
+  gap: 40px;
+}
+
+.section_5_wrapper {
+  display: none;
+}
+
+.item_card {
+  margin-top: 10px;
+}
+
+.section_6 {
+  display: block;
+  flex-wrap: wrap;
+}
+
+.section_6_header h2 {
+  font-size: 38px;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
