@@ -645,17 +645,26 @@ hr {
 
 .footer_socials_policy {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row-reverse;
   margin-top: 40px;
 }
 .footer_socials_policy a {
   margin-left: 15px;
   color: #696688;
 }
-.footer_socials_policy a:first-child {
+.footer_socials_policy a:last-child {
   margin-left: 0;
 }
 .footer_socials_policy a:hover {
   color: #ccc;
+}
+
+.footer_conf {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
 }
 
 .copyright {
@@ -771,4 +780,31 @@ hr {
   border-radius: 25px;
   background-color: #fff;
   width: 100%;
+}
+
+.section_8 {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.section_8_container h2 {
+  font-size: 32px;
+}
+
+footer {
+  padding: 40px 40px;
+}
+
+.footer_container {
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 20px;
+}
+
+.footer_socials_policy {
+  flex-wrap: wrap;
+}
+
+.footer_conf {
+  display: flex;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=styles.css.map */

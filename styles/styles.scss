@@ -614,17 +614,26 @@ hr {
 }
 .footer_socials_policy {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-direction: row-reverse;
   margin-top: 40px;
   a {
     margin-left: 15px;
     color: #696688;
-    &:first-child {
+    &:last-child {
       margin-left: 0;
     }
     &:hover {
       color: #ccc;
     }
   }
+}
+
+.footer_conf {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
 }
 .copyright {
   margin-left: 40px;
