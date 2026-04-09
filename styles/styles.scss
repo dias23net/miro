@@ -98,7 +98,7 @@ nav {
   flex-direction: column;
   flex: 1;
   h1 {
-    font-size: clamp(24px, 5vw, 48px);
+    font-size: clamp(32px, 5vw, 48px);
     // font-size: 48px;
     font-weight: normal;
   }
@@ -189,7 +189,7 @@ form {
   justify-content: center;
   flex: 1;
   h2 {
-    font-size: 48px;
+    font-size: clamp(24px, 5vw, 48px);
     font-weight: normal;
   }
   p {
@@ -228,7 +228,7 @@ form {
   flex-direction: column;
   flex: 1;
   h2 {
-    font-size: 48px;
+    font-size: clamp(24px, 5vw, 48px);
     font-weight: normal;
   }
   p {
@@ -251,7 +251,7 @@ form {
   flex-direction: column;
   margin-top: 200px;
   h2 {
-    font-size: 48px;
+    font-size: clamp(32px, 5vw, 48px);
     font-weight: normal;
     text-align: center;
   }
@@ -302,7 +302,7 @@ form {
   width: 100%;
   flex-direction: column;
   h3 {
-    font-size: 48px;
+    font-size: clamp(32px, 5vw, 48px);
     font-weight: normal;
     color: #050038;
   }
@@ -326,7 +326,7 @@ form {
   flex-direction: column;
   margin-top: 200px;
   h2 {
-    font-size: 48px;
+    font-size: clamp(32px, 5vw, 48px);
     font-weight: normal;
     text-align: center;
   }
@@ -438,7 +438,7 @@ form {
 .section_6_header {
   grid-column: 1 / 4;
   h2 {
-    font-size: 48px;
+    font-size: clamp(24px, 5vw, 48px);
     width: 550px;
   }
   a {
@@ -473,7 +473,8 @@ form {
   align-items: center;
   flex-direction: column;
   h2 {
-    font-size: 48px;
+    font-size: clamp(34px, 5vw, 48px);
+    text-align: center;
     font-weight: normal;
   }
   a {
@@ -544,7 +545,7 @@ form {
   h2 {
     text-align: center;
     color: #fff;
-    font-size: 48px;
+    font-size: clamp(32px, 5vw, 48px);
     font-weight: normal;
   }
   p {
@@ -651,3 +652,4 @@ hr {
 
 @import "./adaptive-768";
 @import "./adaptive-576";
+@import "./adaptive-393"

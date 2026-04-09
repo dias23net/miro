@@ -7,7 +7,7 @@
     margin-top: 40px;
   }
   .section_3 {
-    flex-direction: column;
+    flex-direction: column-reverse;
     margin-top: 40px;
   }
   .section_4_block {
@@ -34,7 +34,6 @@
     padding-bottom: 40px;
   }
   .section_6_header h2 {
-    font-size: 38px;
     width: 100%;
   }
   .section_6_item {
@@ -47,9 +46,6 @@
   .section_8 {
     padding-left: 25px;
     padding-right: 25px;
-  }
-  .section_8_container h2 {
-    font-size: 32px;
   }
   footer {
     padding: 40px 40px;
